@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     $app = \App\App::find(1);
-    return view('welcome')->with(['app' => $app]);
+    return view('frontend/opisanie')->with(['app' => $app]);
 });
 
 Auth::routes();

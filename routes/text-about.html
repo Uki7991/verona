@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Verona Residence</title>
+    
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Forum|Lobster&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../Nurs/main.css">
+    <style>
+        .owl-prev i, .owl-next i {
+            color: black;
+        }
+        .owl-prev, .owl-next {
+            position: absolute;
+            top: 45%;
+            margin-top: -10px;
+        }
+        .owl-prev {
+            left: -40px;
+        }
+        .owl-next {
+            right: -40px;
+        }
+        span, p, h1, h2, h3, h4, h5 {
+            color: #66676A!important;
+        }
+        .btn-verona {
+            background-color: #f3ebd587;
+            border: 3px solid #b9921cb8;
+        }
+        .btn-verona:hover {
+            background-color: #f3ebd5;
+            border: 3px solid #b9921c;
+        }
+        p.indent {
+            text-indent: 3.5em;
+        }
+    </style>
+    <style>
+         .navbar-brand {
+              position: absolute;
+              top: 0px;
+              padding: 0px;
+              left: 7%;
+         }
+
+         .w-65 {
+              width: 65%!important;
+         }
+         
+         .text-verona {
+            color: #66676A!important;
+         }
+         .text-verona.active {
+            border-right: 1px solid rgba(0, 0, 0, 0.3);
+            border-left: 1px solid rgba(0, 0, 0, 0.3);
+            border-radius: 0px;
+         }
+         .text-verona.active:focus, .btn:focus {
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0)!important;
+         }
+         .hr-new{
+            border-top: 1px solid rgba(0, 0, 0, 0.2);
+         }
+         .focused.active {
+              background-color: #f8f9fa
+         }
+         hr {
+             border: none; /* Убираем границу */
+             background-image: url(../../Nurs/stripes.png);
+             background-size: 120px 120px; /* Цвет линии */
+             height: 6px; /* Толщина линии */
+         }
+
+
+    </style>
+</head>    
+<body>
+    
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-sand" style="font-family: forum; text-transform: uppercase;">
+         <div class="container">
+             <a class="navbar-brand" style="top:0%; left:7%;">
+                 <img src="../../Nurs/icons/logo.png" class="w-50" usemap="#Map" alt="">
+             </a>
+                   <map name="Map" id="Map">
+                       <area alt="" title="" href="../../Nurs/verona.html" shape="poly" coords="2,0,172,0,172,248,86,209,3,249" />
+                   </map>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   <ul class="navbar-nav mt-5 mt-md-0 mx-auto text-center">
+                        <li class="nav-item">
+                             <a class="nav-link txt-menu" href="../../Nurs/verona.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link txt-menu">О компании</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                             <a class="nav-link dropdown-toggle txt-menu" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Объекты</a>
+                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="../../Nurs/verona.html">Verona Residence</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                             <a class="nav-link txt-menu">Акции</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link txt-menu">Вакансии</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link txt-menu" href="../../Nurs/contacts.html">Контакты</a>
+                        </li>
+                   </ul>
+
+                   <ul class="nav flex-column text-center">
+                      <li class="nav-item">
+                        <a class="nav-link p-1 txt-white" href="#">+996 (777) 231 - 123</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link p-1 small txt-white" href="#">Verona.Residence@mail.ru</a>
+                      </li>
+                    </ul>
+              </div>
+         </div>
+    </nav>
+
+
+
+	<div class="container">
+
+		<div class="row my-5 justify-content-center">
+			<div class="col-12 col-md-8 col-xl-auto row justify-content-center">
+				<img src="../../Nurs/residence1.png" class="img-fluid" alt="">
+			</div>
+		</div>
+
+		<div class="row justify-content-center">
+			<!-- <div class="col-10">
+				<hr class="m-0 hr-new">
+			</div>
+			<div class="col-12"></div> -->
+			<!--<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">-->
+			  	<!--<li class="nav-item">-->
+			    	<!--<a class="btn text-verona active" href="text-about.html">Описание</a>-->
+			  	<!--</li>-->
+			  	<!--<li class="nav-item">-->
+			    	<!--<a class="btn text-verona" href="text-high-lights.html">Особенности</a>-->
+			  	<!--</li>-->
+				<!--<li class="nav-item">-->
+				<!--<a class="btn text-verona" href="text-plus.html">Преимущества</a>-->
+				<!--</li>-->
+			  	<!--<li class="nav-item">-->
+			    	<!--<a class="btn text-verona" href="text-plans.html">Планировки</a>-->
+			  	<!--</li>-->
+			  	<!--<li class="nav-item">-->
+			    	<!--<a class="btn text-verona" id="pills-contact-tab" data-toggle="pill" href="#pills-etap" role="tab" aria-controls="pills-contact" aria-selected="false">Этапы строительства</a>-->
+			  	<!--</li>-->
+
+
+			<!--</ul>-->
+			<nav class="top-menu mb-5">
+				<ul class="menu-main">
+					<li><a href="text-about.html">Описание</a></li>
+                    <li><a href="../../Nurs/text-gallery.html">Галерея</a></li>
+					<li><a href="../../Nurs/text-high-lights.html">Особенности</a></li>
+					<li><a href="../../Nurs/text-plus.html">Преимущества</a></li>
+					<li><a href="../../Nurs/text-plans.html">Планировки</a></li>
+					<li><a href="../../Nurs/bezraznici.html">Этапы строительства</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="row mb-5 justify-content-center"   >
+			<div class="owl-carousel owl-theme w-75" style=" padding:12px; background-image:url(../../Nurs/Фон.png); background-size: 100px 100px;" >
+				<div class="item">
+					<img src="../../Nurs/renders/01_Day.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="../../Nurs/renders/01_Evening.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="../../Nurs/renders/02_Day.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="../../Nurs/renders/02_Evening.jpg" alt="">
+				</div>
+                <div class="item">
+					<img src="../../Nurs/renders/03_Day.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="../../Nurs/renders/03_Evening.jpg" alt="">
+				</div>
+                <div class="item">
+					<img src="../../Nurs/renders/06_Day.jpg" alt="">
+				</div>
+				<div class="item">
+					<img src="../../Nurs/renders/06_Evening.jpg" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div class="row my-3 justify-content-center">
+			
+			<div class="col-12 mb-5">
+
+				<div class="row my-3 justify-content-center">
+					<div class="col-12 col-md-10">
+                        <h1 class="text-center mb-5" style="font-family: Forum; font-weight: bold;">Описание</h1>
+						<div class="mb-5" ><p style="font-family: Forum; font-size: 32px; text-transform: uppercase;">Отличное расположение<hr></p></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/marker.png" style="margin-left:30px; margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase;">Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой </span></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/marker.png" style="margin-left:30px;  margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase;">Хороший район с безупреной инфраструктурой  </span></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/marker.png" style="margin-left:30px; margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase;">Близкое расположение школ, гимназий и лицеи </span></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/marker.png" style="margin-left:30px;  margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase;">Рядом расположен большой оптомаркет Бишкек, множества кафе и Ресторан Золотой дракон </span></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/marker.png" style="margin-left:30px;  margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase;">Удобная транпортная развязка обеспечивает бесприпятственный доступ ко всем частям города Бишкек </span></div>
+
+					</div>
+				</div>
+
+				<div class="row my-3 mt-5 justify-content-center">
+					<div class="col-12 col-md-10">
+						<div class="mb-5" ><p style="font-family: Forum; font-size: 32px; text-transform: uppercase;">Богатая территория<hr></p></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/ground.png" style="margin-left:30px; margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase;">Детская игровая площадка </span></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/ground.png" style="margin-left:30px;  margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase;">Беседка для тихих совместных вечеров и пикника  </span></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/ground.png" style="margin-left:30px; margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase;">Собственный фонтан с ночной подсветкой </span></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/ground.png" style="margin-left:30px;  margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase;">Футбольная и баскетбольная площадка </span></div>
+
+					</div>
+				</div>
+
+
+
+			<div class="row my-5 justify-content-center">
+				<div class="owl-carousel owl-theme w-75" style=" padding:12px; background-image:url(../../Nurs/Фон.png); background-size: 100px 100px;">
+					<div class="item">
+						<img src="../../Nurs/renders/08_D.png" alt="">
+					</div>
+					<div class="item">
+						<img src="../../Nurs/renders/08_E.png" alt="">
+					</div>
+					<div class="item">
+						<img src="../../Nurs/renders/09_D_2.png" alt="">
+					</div>
+					<div class="item">
+						<img src="../../Nurs/renders/09_E_2.png" alt="">
+					</div>
+					<div class="item">
+						<img src="../../Nurs/renders/12_D.png" alt="">
+					</div>
+					<div class="item">
+						<img src="../../Nurs/renders/12_E.png" alt="">
+					</div>
+                    <div class="item">
+						<img src="../../Nurs/renders/15_D_preview.png" alt="">
+					</div>
+					<div class="item">
+						<img src="../../Nurs/renders/15_E_preview.png" alt="">
+					</div>
+                    <div class="item">
+						<img src="../../Nurs/renders/deti.png" alt="">
+					</div>
+					<div class="item">
+						<img src="../../Nurs/renders/17_E_preview.png" alt="">
+					</div>
+				</div>
+			</div>
+				<div class="row my-3 justify-content-center">
+					<div class="col-12 col-md-10">
+						<div class="" ><p style="font-family: Forum; font-size: 32px; text-transform: uppercase;">Современный комплекс<hr></p></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/thumbs-up.png" style="margin-left:30px; margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase;">КОМПЛЕКС ОСНАЩЕН ВСЕМИ СИСТЕМАМИ ИНЖЕНЕРНЫХ КОММУНИКАЦИЙ (ЦЕНТРАЛЬНЫМ ОТОПЛЕНИЕМ, ВОДОСНАБЖЕНИЕМ, КАНАЛИЗАЦИЕЙ, ЭЛЕКТРОЭНЕРГИЕЙ) </span></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/thumbs-up.png" style="margin-left:30px;  margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase; position:absolute;">Подземная автопаркинг и надземная гостевая автостоянка  </span></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/thumbs-up.png" style="margin-left:30px; margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase;">Бесшумные лифты мирового бренда </span></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/thumbs-up.png" style="margin-left:30px;  margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase;">Высокоскоростной интернет, кабельное телевидение и цифровая телефонная линия </span></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/thumbs-up.png" style="margin-left:30px;  margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase;">Отделка Фасада из Натурального камня Травертин – сары таш </span></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/thumbs-up.png" style="margin-left:30px;  margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase;">Круглосуточная охрана и видеонаблюдение </span></div>
+						<div style="margin-bottom:20px;"><img src="../../Nurs/icons/thumbs-up.png" style="margin-left:30px;  margin-right:10px;" alt=""><span class="indent" style="font-family: forum; text-transform: uppercase;">Сейсмостойкость – 9 баллов по шкале рихтера </span></div>
+
+					</div>
+				</div>
+
+
+				
+				<div class="line text-center m-5"><img src="../../Nurs/2.png" alt=""></div>
+
+                <nav class="top-menu mb-2 mt-5">
+                    <ul class="menu-main">
+                        <li><a href="text-about.html">Описание</a></li>
+                        <li><a href="../../Nurs/text-gallery.html">Галерея</a></li>
+                        <li><a href="../../Nurs/text-high-lights.html">Особенности</a></li>
+                        <li><a href="../../Nurs/text-plus.html">Преимущества</a></li>
+                        <li><a href="../../Nurs/text-plans.html">Планировки</a></li>
+                        <li><a href="../../Nurs/bezraznici.html">Этапы строительства</a></li>
+                    </ul>
+                </nav>
+			</div>
+		</div>
+	</div>
+
+
+
+
+    <footer class="bg-footer text-muted">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-md-auto" style="left:-10%;">
+                    <img src="../../Nurs/icons/logo2.png" class="" usemap="#Map" alt="" style="width:120%;">
+                    <map name="Map" id="Map">
+                        <area alt="" title="" href="/" shape="poly" coords="2,0,172,0,172,248,86,209,3,249" />
+                    </map>
+                </div>
+                <div class="col-12 col-md-auto mt-5 ">
+                    <p class="h2 mb-2 txt-white"><u>
+                        Телефоны:
+                    </u>
+                    </p>
+
+                    <address class="contacts">
+                        <p class="txt-white">+996 700 700 700</p>
+                    </address>
+
+
+
+                    <address>
+                        <p class="txt-white">+996 700 700 700</p>
+                    </address>
+
+                </div>
+                <div class="col-12 col-md-auto px-5 mb-4 mb-md-0 mt-5 ">
+                    <p class="h2 mb-2 txt-white"><u>E-mail:</u></p>
+                    <a href="#" target="_blank" class="text-muted txt-white">Verona.Residence@mail.ru</a>
+                </div>
+
+                <div class="col-12 col-md-auto mt-5 ">
+                    <p class="h2 mb-2 txt-white"><u>Соц. сетях:</u></p>
+                    <div class="small mb-4 mb-md-2  align-items-center">
+                        <i class="fab fa-2x fa-instagram text-light"></i>&nbsp;
+                        <a href="https://www.instagram.com/bayservice" target="_blank" class="text-muted txt-white">https://www.instagram.com/bayservice</a>
+                    </div>
+                    <div class="small mb-4 mb-md-2 align-items-center">
+                        <i class="fab fa-2x fa-facebook text-light"></i>&nbsp;
+                        <a href="https://www.facebook.com/bayservice" target="_blank" class="text-muted txt-white">https://www.facebook.com/bayservice</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+            <div class="row justify-content-center">
+                <p class="small text-muted py-3">Made with &hearts; by <a href="">Mount</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="../../Nurs/OwlCarousel/dist/owl.carousel.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		  	$(".owl-carousel").owlCarousel({
+		  		loop: true,
+		  		items: 1,
+		  		margin: 0,
+			    autoplay:true,
+			    autoplayTimeout:5000,
+			    autoplayHoverPause:true,
+			    dots: false,
+			    animateOut: 'fadeOut',
+			    nav: true,
+			    navText: ['<i class="fas fa-2x fa-chevron-left"></i>',
+			    		  '<i class="fas fa-2x fa-chevron-right"></i>']
+		  	});
+		});
+	</script>
+</body>
+</html>
