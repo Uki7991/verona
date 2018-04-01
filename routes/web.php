@@ -27,3 +27,7 @@ Route::get('/verona', 'IndexController@verona')->name('verona');
 Route::get('/advantages', 'IndexController@advantages')->name('advantages');
 Route::get('/building', 'IndexController@building')->name('building');
 
+Route::group(['middleware' => ['admin']],function() {
+
+});
+
