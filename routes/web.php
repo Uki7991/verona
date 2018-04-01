@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $app = \App\App::find(1);
+    return view('welcome')->with(['app' => $app]);
 });
 
 Auth::routes();

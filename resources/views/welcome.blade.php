@@ -65,5 +65,13 @@
         </style>
     </head>
     <body>
+    <h1>Hello</h1>
+    @if($app)
+    <p>{{ $app->title }}</p>
+    <p>{{ $app->phone1 }}</p>
+    <p>{{ $app->description }}</p>
+    <p>{{ $app->created_at}}</p>
+    <p>{{ $app->updated_at}}</p>
+    @endif
     </body>
 </html>
