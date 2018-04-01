@@ -155,7 +155,7 @@
         }
         hr {
             border: none; /* Убираем границу */
-            background-image: url(../../Nurs/stripes.png);
+            background-image: url(/images/stripes.png);
             background-size: 120px 120px; /* Цвет линии */
             height: 6px; /* Толщина линии */
         }
@@ -168,7 +168,7 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-sand" style="font-family: forum; text-transform: uppercase;">
     <div class="container">
         <a class="navbar-brand" style="top:0%; left:7%;">
-            <img src="../../Nurs/icons/logo.png" class="w-50" usemap="#Map" alt="">
+            <img src="/images/Icons/logo.png" class="w-50" usemap="#Map" alt="">
         </a>
         <map name="Map" id="Map">
             <area alt="" title="" href="../../Nurs/verona.html" shape="poly" coords="2,0,172,0,172,248,86,209,3,249" />
@@ -225,7 +225,7 @@
     <div class="container">
         <div class="row justify-content-around">
             <div class="col-md-auto" style="left:-10%;">
-                <img src="../../Nurs/icons/logo2.png" class="" usemap="#Map" alt="" style="width:120%;">
+                <img src="/images/Icons/logo2.png" class="" usemap="#Map" alt="" style="width:120%;">
                 <map name="Map" id="Map">
                     <area alt="" title="" href="/" shape="poly" coords="2,0,172,0,172,248,86,209,3,249" />
                 </map>
