@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Advantages extends Model
+class Object extends Model
 {
-    //
+
 }
