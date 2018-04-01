@@ -19,6 +19,8 @@ class CreateBenefitsTable extends Migration
             $table->text('content')->nullable();
             $table->string('icon')->nullable();
             $table->string('image')->nullable();
+            $table->tinyInteger('parent_id')->nullable();
+            $table->tinyInteger('menu_id')->nullable();
             $table->timestamps();
         });
     }
