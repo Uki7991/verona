@@ -80,6 +80,10 @@
         <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <meta charset="UTF-8">
     <title>Verona Residence</title>
 
@@ -88,9 +92,7 @@
     <link href="https://fonts.googleapis.com/css?family=Forum|Lobster&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/owlcarousel/dist/assets/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owlcarousel/dist/assets/owl.theme.default.min.css') }}">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ asset('css/fontawesome/web-fonts-with-css/css/fontawesome-all.css') }}">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <style>
         .owl-prev i, .owl-next i {
@@ -275,7 +277,7 @@
 
 
 <script src="{{ asset('js/app.js') }}"></script>
-<script src="../../Nurs/OwlCarousel/dist/owl.carousel.min.js"></script>
+<script src="{{ asset('css/owlcarousel/dist/owl.carousel.min.js') }}"></script>
 <script>
     $(document).ready(function(){
         $(".owl-carousel").owlCarousel({
