@@ -201,7 +201,7 @@
 
 
         <div class="row py-5 justify-content-center small text-muted">
-            <a href="http://mount.kg" target="_blank" class="text-muted">Made with&nbsp;<span class="text-danger">&hearts;</span> by&nbsp;Mount</a>
+            <a href="http://mount.kg" target="_blank" class="text-muted mount-sign">Made with&nbsp;<span class="text-danger">&hearts;</span> by&nbsp;Mount</a>
         </div>
     </div>
 </footer>
