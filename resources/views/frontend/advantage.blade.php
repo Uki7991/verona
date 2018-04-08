@@ -149,8 +149,9 @@
 
     </div>
     <div class="line text-center"><img src="/images/2.png" alt=""></div>
-    </div>
+
     <div class="row justify-content-center">
         @include('layouts.navigator')
+    </div>
     </div>
 @endsection

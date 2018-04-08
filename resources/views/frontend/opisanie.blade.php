@@ -14,7 +14,7 @@
             @include('layouts.navigator')
         </div>
 
-        <div class="row mb-5 justify-content-center"   >
+        <div class="row mb-5 justify-content-center">
             <div class="owl-carousel owl-theme w-75" style=" padding:12px; background-image:url(images/stipes2.png); background-size: 100px 100px;" >
                 <div class="item">
                     <img src="/images/Renders/01_Day.jpg" alt="">

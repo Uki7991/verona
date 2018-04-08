@@ -84,7 +84,7 @@
 
         <div class="container">
             <div class="row justify-content-center mt-3">
-                <div class="col-11 owl-carousel owl-2" style=" padding:12px; background-image:url(stipes2.png); background-size: 100px 100px;">
+                <div class="col-11 owl-carousel owl-2" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;">
                     <div class="item"><a href="#1"><img src="/images/renders/08_D.png" class="" alt=""></a></div>
                     <div class="item"><a href="#2"><img src="/images/renders/08_E.png" class="" alt=""></a></div>
                     <div class="item"><a href="#3"><img src="/images/renders/09_D_2.png" class="" alt=""></a></div>
