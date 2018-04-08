@@ -1,16 +1,23 @@
 @extends('layouts.app')
 
 @section('content')
+
+
+    <div class="row my-5 justify-content-center">
+        <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
+            <img src="/images/residence1.png" class="img-fluid" alt="">
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        @include('layouts.navigator')
+    </div>
     <div class="container">
 
-        <div class="row my-5 justify-content-center">
-            <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
-                <img src="/images/residence1.png" class="img-fluid" alt="">
-            </div>
-        </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center d-none d-md-center-block">
             @include('layouts.navigator')
         </div>
+
+
     <div class="row">
         <h2 style="font-family: forum; text-transform: uppercase;" class=" text-center text-verona col-12"><hr>Что Вы получаете, приобретая квартиру в ЖК «Verona Residence»:<hr></h2>
 
@@ -150,8 +157,12 @@
     </div>
     <div class="line text-center"><img src="/images/2.png" alt=""></div>
 
+        <div class="row justify-content-center d-none d-md-center-block">
+            @include('layouts.navigator')
+        </div>
+    </div>
+
     <div class="row justify-content-center">
         @include('layouts.navigator')
-    </div>
     </div>
 @endsection

@@ -65,15 +65,18 @@
 </nav>
 
 
+<div class="row my-5 justify-content-center">
+    <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
+        <img src="/images/residence1.png" class="img-fluid" alt="">
+    </div>
+</div>
+<div class="row justify-content-center">
+    @include('layouts.navigator')
+</div>
     <div class="container">
-        <div class="row my-5 justify-content-center">
-            <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
-                <img src="/images/residence1.png" class="img-fluid" alt="">
-            </div>
-        </div>
 
-        <div class="row justify-content-center">
-                @include('layouts.navigator')
+        <div class="row justify-content-center d-none d-md-center-block">
+            @include('layouts.navigator')
         </div>
 
         <div class="row">
@@ -140,7 +143,7 @@
                 </div>
                 <hr>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                   </p>
                 <hr>
             </div>
             <div class="col-6">
@@ -183,7 +186,7 @@
             </div>
             <hr>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </p>
             <hr>
         </div>
         <div class="col-6">
@@ -227,10 +230,13 @@
         <!--</div>-->
         <div class="line text-center m-5"><img src="/images/2.png" alt=""></div>
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center d-none d-md-center-block">
             @include('layouts.navigator')
         </div>
     </div>
+<div class="row justify-content-center">
+    @include('layouts.navigator')
+</div>
         <footer class="bg-footer text-muted">
             <div class="container">
                 <div class="row justify-content-around">

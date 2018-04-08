@@ -63,16 +63,18 @@
         </div>
     </div>
 </nav>
-
+<div class="row my-5 justify-content-center">
+    <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
+        <img src="/images/residence1.png" class="img-fluid" alt="">
+    </div>
+</div>
+<div class="row justify-content-center">
+    @include('layouts.navigator')
+</div>
     <div class="container">
 
-        <div class="row my-5 justify-content-center">
-            <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
-                <img src="/images/residence1.png" class="img-fluid" alt="">
-            </div>
-        </div>
-        <div class="row justify-content-center">
-                @include('layouts.navigator')
+        <div class="row justify-content-center d-none d-md-center-block">
+            @include('layouts.navigator')
         </div>
 
         <div class="row justify-content-center">
@@ -320,11 +322,15 @@
 
         <div class="line text-center m-5"><img src="/images/2.png" alt=""></div>
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center d-none d-md-center-block">
             @include('layouts.navigator')
         </div>
     </div>
-    <footer class="bg-footer text-muted">
+<div class="row justify-content-center">
+    @include('layouts.navigator')
+</div>
+
+<footer class="bg-footer text-muted">
         <div class="container">
             <div class="row justify-content-around">
                 <div class="col-md-auto" style="left:-10%; width:350px;">

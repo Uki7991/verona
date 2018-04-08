@@ -158,7 +158,7 @@
         <div class="row justify-content-around">
             <div class="col-md-auto" style="left:-10%; width:350px;">
                 <a href="/">
-                    <img src="/images/icons/logo.png" class="" alt="" style="width:80%;">
+                    <img src="/images/icons/logo.png" alt="" style="width:80%;">
                 </a>
             </div>
             <div class="col-12 col-md-auto mt-5 ">
