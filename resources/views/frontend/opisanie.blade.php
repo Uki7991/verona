@@ -11,43 +11,11 @@
         </div>
 
         <div class="row justify-content-center">
-            <!-- <div class="col-10">
-                <hr class="m-0 hr-new">
-            </div>
-            <div class="col-12"></div> -->
-            <!--<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">-->
-            <!--<li class="nav-item">-->
-            <!--<a class="btn text-verona active" href="text-about.html">Описание</a>-->
-            <!--</li>-->
-            <!--<li class="nav-item">-->
-            <!--<a class="btn text-verona" href="text-high-lights.html">Особенности</a>-->
-            <!--</li>-->
-            <!--<li class="nav-item">-->
-            <!--<a class="btn text-verona" href="text-plus.html">Преимущества</a>-->
-            <!--</li>-->
-            <!--<li class="nav-item">-->
-            <!--<a class="btn text-verona" href="text-plans.html">Планировки</a>-->
-            <!--</li>-->
-            <!--<li class="nav-item">-->
-            <!--<a class="btn text-verona" id="pills-contact-tab" data-toggle="pill" href="#pills-etap" role="tab" aria-controls="pills-contact" aria-selected="false">Этапы строительства</a>-->
-            <!--</li>-->
-
-
-            <!--</ul>-->
-            <nav class="top-menu mb-5">
-                <ul class="menu-main">
-                    <li><a href="text-about.html">Описание</a></li>
-                    <li><a href="../../Nurs/text-gallery.html">Галерея</a></li>
-                    <li><a href="../../Nurs/text-high-lights.html">Особенности</a></li>
-                    <li><a href="../../Nurs/text-plus.html">Преимущества</a></li>
-                    <li><a href="../../Nurs/text-plans.html">Планировки</a></li>
-                    <li><a href="../../Nurs/bezraznici.html">Этапы строительства</a></li>
-                </ul>
-            </nav>
+            @include('layouts.navigator')
         </div>
 
         <div class="row mb-5 justify-content-center"   >
-            <div class="owl-carousel owl-theme w-75" style=" padding:12px; background-image:url(images/Фон.png); background-size: 100px 100px;" >
+            <div class="owl-carousel owl-theme w-75" style=" padding:12px; background-image:url(images/stipes2.png); background-size: 100px 100px;" >
                 <div class="item">
                     <img src="/images/Renders/01_Day.jpg" alt="">
                 </div>
@@ -106,7 +74,7 @@
 
 
                 <div class="row my-5 justify-content-center">
-                    <div class="owl-carousel owl-theme w-75" style=" padding:12px; background-image:url(images/Фон.png); background-size: 100px 100px;">
+                    <div class="owl-carousel owl-theme w-75" style=" padding:12px; background-image:url(images/stipes2.png); background-size: 100px 100px;">
                         <div class="item">
                             <img src="/images/Renders/08_D.png" alt="">
                         </div>
@@ -155,18 +123,11 @@
 
 
 
-                <div class="line text-center m-5"><img src="/images/2.png" alt=""></div>
+                <div class="line text-center"><img src="/images/2.png" alt=""></div>
 
-                <nav class="top-menu mb-2 mt-5">
-                    <ul class="menu-main">
-                        <li><a href="text-about.html">Описание</a></li>
-                        <li><a href="../../Nurs/text-gallery.html">Галерея</a></li>
-                        <li><a href="../../Nurs/text-high-lights.html">Особенности</a></li>
-                        <li><a href="../../Nurs/text-plus.html">Преимущества</a></li>
-                        <li><a href="../../Nurs/text-plans.html">Планировки</a></li>
-                        <li><a href="../../Nurs/bezraznici.html">Этапы строительства</a></li>
-                    </ul>
-                </nav>
+                <div class="row justify-content-center">
+                    @include('layouts.navigator')
+                </div>
             </div>
         </div>
     </div>

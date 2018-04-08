@@ -95,70 +95,9 @@
     <link rel="stylesheet" href="{{ asset('css/fontawesome/web-fonts-with-css/css/fontawesome-all.css') }}">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <style>
-        .owl-prev i, .owl-next i {
-            color: black;
-        }
-        .owl-prev, .owl-next {
-            position: absolute;
-            top: 45%;
-            margin-top: -10px;
-        }
-        .owl-prev {
-            left: -40px;
-        }
-        .owl-next {
-            right: -40px;
-        }
-        span, p, h1, h2, h3, h4, h5 {
-            color: #66676A!important;
-        }
-        .btn-verona {
-            background-color: #f3ebd587;
-            border: 3px solid #b9921cb8;
-        }
-        .btn-verona:hover {
-            background-color: #f3ebd5;
-            border: 3px solid #b9921c;
-        }
-        p.indent {
-            text-indent: 3.5em;
-        }
+
     </style>
     <style>
-        .navbar-brand {
-            position: absolute;
-            top: 0px;
-            padding: 0px;
-            left: 7%;
-        }
-
-        .w-65 {
-            width: 65%!important;
-        }
-
-        .text-verona {
-            color: #66676A!important;
-        }
-        .text-verona.active {
-            border-right: 1px solid rgba(0, 0, 0, 0.3);
-            border-left: 1px solid rgba(0, 0, 0, 0.3);
-            border-radius: 0px;
-        }
-        .text-verona.active:focus, .btn:focus {
-            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0)!important;
-        }
-        .hr-new{
-            border-top: 1px solid rgba(0, 0, 0, 0.2);
-        }
-        .focused.active {
-            background-color: #f8f9fa
-        }
-        hr {
-            border: none; /* Убираем границу */
-            background-image: url(/images/stripes.png);
-            background-size: 120px 120px; /* Цвет линии */
-            height: 6px; /* Толщина линии */
-        }
 
 
     </style>
@@ -167,11 +106,11 @@
 
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-sand" style="font-family: forum; text-transform: uppercase;">
     <div class="container">
-        <a class="navbar-brand" style="top:0%; left:7%;">
-            <img src="/images/Icons/logo.png" class="w-50" usemap="#Map" alt="">
+        <a class="navbar-brand" style="height:10%;">
+            <img src="/images/Icons/logo.png" style="width:20%;" usemap="#Map" alt="">
         </a>
         <map name="Map" id="Map">
-            <area alt="" title="" href="../../Nurs/verona.html" shape="poly" coords="2,0,172,0,172,248,86,209,3,249" />
+            <area alt="" title="" href="/" shape="poly" coords="2,0,172,0,172,248,86,209,3,249" />
         </map>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -180,7 +119,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mt-5 mt-md-0 mx-auto text-center">
                 <li class="nav-item">
-                    <a class="nav-link txt-menu" href="../../Nurs/verona.html">Главная</a>
+                    <a class="nav-link txt-menu" href="/">Главная</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link txt-menu">О компании</a>
@@ -188,7 +127,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle txt-menu" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Объекты</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="../../Nurs/verona.html">Verona Residence</a>
+                        <a class="dropdown-item" href="/description">Verona Residence</a>
                     </div>
                 </li>
 
@@ -199,7 +138,7 @@
                     <a class="nav-link txt-menu">Вакансии</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link txt-menu" href="../../Nurs/contacts.html">Контакты</a>
+                    <a class="nav-link txt-menu" href="/contact">Контакты</a>
                 </li>
             </ul>
 
@@ -224,11 +163,10 @@
 <footer class="bg-footer text-muted">
     <div class="container">
         <div class="row justify-content-around">
-            <div class="col-md-auto" style="left:-10%;">
-                <img src="/images/Icons/logo2.png" class="" usemap="#Map" alt="" style="width:120%;">
-                <map name="Map" id="Map">
-                    <area alt="" title="" href="/" shape="poly" coords="2,0,172,0,172,248,86,209,3,249" />
-                </map>
+            <div class="col-md-auto" style="left:-10%; width:350px;">
+                <a href="/">
+                    <img src="/images/icons/logo.png" class="" alt="" style="width:80%;">
+                </a>
             </div>
             <div class="col-12 col-md-auto mt-5 ">
                 <p class="h2 mb-2 txt-white"><u>
@@ -237,13 +175,13 @@
                 </p>
 
                 <address class="contacts">
-                    <p class="txt-white">+996 700 700 700</p>
+                    <p class="txt-white">+996 (***) ***-***</p>
                 </address>
 
 
 
                 <address>
-                    <p class="txt-white">+996 700 700 700</p>
+                    <p class="txt-white">+996 (***) ***-***</p>
                 </address>
 
             </div>
@@ -293,6 +231,33 @@
             navText: ['<i class="fas fa-2x fa-chevron-left"></i>',
                 '<i class="fas fa-2x fa-chevron-right"></i>']
         });
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $(".owl-1").owlCarousel({
+            loop: true,
+            items: 1,
+            margin: 0,
+            dots: false,
+            animateOut: 'fadeOut',
+            nav: true,
+            navText: ['<i class="fas fa-2x fa-chevron-left"></i>',
+                '<i class="fas fa-2x fa-chevron-right"></i>']
+
+        });
+
+        $('.owl-2').owlCarousel({
+            loop: true,
+            items: 5,
+            margin: 10,
+            dots: false,
+            animateOut: 'fadeOut',
+            nav: true,
+            navText: ['<i class="fas fa-2x fa-chevron-left"></i>',
+                '<i class="fas fa-2x fa-chevron-right"></i>']
+
+        })
     });
 </script>
 </body>

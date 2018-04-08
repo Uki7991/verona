@@ -1,3 +1,66 @@
+.owl-prev i, .owl-next i {
+    color: black;
+}
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 45%;
+    margin-top: -10px;
+}
+.owl-prev {
+    left: -40px;
+}
+.owl-next {
+    right: -40px;
+}
+span, p, h1, h2, h3, h4, h5 {
+    color: #66676A!important;
+}
+.btn-verona {
+    border: 1.5px solid #3b1600;
+    letter-spacing: 0.5px;
+    color:#3b1600!important;
+}
+.btn-verona:hover {
+    background-color: #f9f9f2;
+    border: 1.5px solid #3b1600;
+}
+p.indent {
+    text-indent: 3.5em;
+}
+.navbar-brand {
+    position: absolute;
+    top: 0px;
+    padding: 0px;
+    left: 7%;
+}
+
+.w-65 {
+    width: 65%!important;
+}
+
+.text-verona {
+    color: #3b1600!important;
+}
+.text-verona.active {
+    font-weight: bold;
+    border-radius: 0px;
+}
+.text-verona.active:focus, .btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0)!important;
+}
+.hr-new{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.focused.active {
+    background-color: #f8f9fa
+}
+hr {
+    border: none; /* Убираем границу */
+    background-image: url(/images/stripes.png);
+    background-size: 120px 120px; /* Цвет линии */
+    height: 6px; /* Толщина линии */
+}
+
 forum {
 	font-family: 'Forum', cursive;
 }
@@ -154,4 +217,10 @@ h1:before {
 h1:after {
     left: 10px;
     margin-right: -50%;
+}
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }

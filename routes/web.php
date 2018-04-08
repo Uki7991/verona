@@ -13,19 +13,21 @@
 
 Route::get('/', function () {
     $app = \App\App::find(1);
-    return view('frontend/opisanie')->with(['app' => $app]);
+    return view('frontend/main')->with(['app' => $app]);
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/contact', 'IndexController@contact')->name('contact');
-Route::get('/company', 'IndexController@company')->name('company');
-Route::get('/plan', 'IndexController@plan')->name('plan');
-Route::get('/verona', 'IndexController@verona')->name('verona');
-Route::get('/advantages', 'IndexController@advantages')->name('advantages');
-Route::get('/building', 'IndexController@building')->name('building');
+Route::get('/description', 'DescriptionController@index')->name('description');
+Route::get('/contact', 'ContactController@index')->name('contact');
+Route::get('/gallery', 'GalleryController@index')->name('gallery');
+Route::get('/company', 'CompanyController@index')->name('company');
+Route::get('/plan', 'PlanController@index')->name('plan');
+Route::get('/verona', 'VeronaController@index')->name('verona');
+Route::get('/advantages', 'AdvantageController@index')->name('advantages');
+Route::get('/stage', 'StageController@index')->name('stage');
 
 Route::group(['middleware' => ['admin']],function() {
 
