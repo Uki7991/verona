@@ -3,16 +3,16 @@
 @section('content')
 
 
-    <div class="row my-5 justify-content-center">
-        <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
-            <img src="/images/residence1.png" class="img-fluid" alt="">
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        @include('layouts.navigator')
-    </div>
-    <div class="container">
 
+    <div class="container">
+        <div class="row my-5 justify-content-center">
+            <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
+                <img src="/images/residence1.png" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            @include('layouts.navigator')
+        </div>
         <div class="row justify-content-center d-none d-md-center-block">
             @include('layouts.navigator')
         </div>
@@ -160,9 +160,9 @@
         <div class="row justify-content-center d-none d-md-center-block">
             @include('layouts.navigator')
         </div>
+        <div class="row justify-content-center">
+            @include('layouts.navigator')
+        </div>
     </div>
 
-    <div class="row justify-content-center">
-        @include('layouts.navigator')
-    </div>
 @endsection

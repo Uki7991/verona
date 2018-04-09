@@ -77,7 +77,7 @@
 
 
 
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Required meta tags -->
@@ -91,9 +91,8 @@
 
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Forum|Lobster&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/owlcarousel/dist/assets/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/owlcarousel/dist/assets/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/fontawesome/web-fonts-with-css/css/fontawesome-all.css') }}">
+    @yield('styles')
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 
     </head>
@@ -262,51 +261,8 @@
     </div>
 </footer>
 <script src="{{ asset('js/app.js') }}"></script>
-<script type="text/javascript" src="{{ asset('/css/owlcarousel/dist/owl.carousel.min.js') }}"></script>
-<script>
-    $(document).ready(function(){
-        $(".owl-1").owlCarousel({
-            loop: true,
-            items: 1,
-            margin: 0,
-            dots: false,
-            animateOut: 'fadeOut',
-            nav: true,
-            navText: ['<i class="fas fa-2x fa-chevron-left d-none d-md-block"></i>',
-                '<i class="fas fa-2x fa-chevron-right d-none d-md-block"></i>']
 
-        });
-
-        $('.owl-2').owlCarousel({
-            loop: true,
-            items: 5,
-            margin: 10,
-            dots: false,
-            animateOut: 'fadeOut',
-            nav: true,
-            navText: ['<i class="fas fa-2x fa-chevron-left d-none d-md-block"></i>',
-                '<i class="fas fa-2x fa-chevron-right d-none d-md-block"></i>']
-
-        })
-    });
-</script>
-<script>
-    $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
-            loop: true,
-            items: 1,
-            margin: 0,
-            autoplay:true,
-            autoplayTimeout:5000,
-            autoplayHoverPause:true,
-            dots: false,
-            animateOut: 'fadeOut',
-            nav: true,
-            navText: ['<i class="fas fa-2x fa-chevron-left d-none d-md-block"></i>',
-                '<i class="fas fa-2x fa-chevron-right d-none d-md-block"></i>']
-        });
-    });
-</script>
+@yield('javascripts')
 
 </body>
 </html>

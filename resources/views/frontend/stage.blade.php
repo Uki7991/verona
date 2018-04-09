@@ -1,80 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+@extends('layouts.app')
 
-    <meta charset="UTF-8">
-    <title>Verona Residence</title>
+@section('styles')
 
     <link rel="stylesheet" href="{{ asset('css/fancybox/fancybox/jquery.fancybox-1.3.4.css') }}" type="text/css" media="screen" />
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 
-</head>
-<body>
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-sand" style="font-family: forum; text-transform: uppercase;">
+@endsection
+
+@section('content')
+
     <div class="container">
-        <a class="navbar-brand" style="height:10%;">
-            <img src="/images/Icons/logo.png" style="width:20%;" usemap="#Map" alt="">
-        </a>
-        <map name="Map" id="Map">
-            <area alt="" title="" href="/" shape="poly" coords="2,0,172,0,172,248,86,209,3,249" />
-        </map>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mt-5 mt-md-0 mx-auto text-center">
-                <li class="nav-item">
-                    <a class="nav-link txt-menu" href="/">Главная</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link txt-menu">О компании</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle txt-menu" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Объекты</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/description">Verona Residence</a>
-                    </div>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link txt-menu">Акции</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link txt-menu">Вакансии</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link txt-menu" href="/contact">Контакты</a>
-                </li>
-            </ul>
-
-            <ul class="nav flex-column text-center">
-                <li class="nav-item">
-                    <a class="nav-link p-1 txt-white" href="#">+996 (777) 231 - 123</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link p-1 small txt-white" href="#">Verona.Residence@mail.ru</a>
-                </li>
-            </ul>
+        <div class="row my-5 justify-content-center">
+            <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
+                <img src="/images/residence1.png" class="img-fluid" alt="">
+            </div>
         </div>
-    </div>
-</nav>
-<div class="row my-5 justify-content-center" style="width:90%;">
-    <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
-        <img src="/images/residence1.png" class="img-fluid" alt="">
-    </div>
-</div>
-<div class="row justify-content-center" style="width:90%;">
-    @include('layouts.navigator')
-</div>
-    <div class="container">
-
+        <div class="row justify-content-center">
+            @include('layouts.navigator')
+        </div>
         <div class="row justify-content-center d-none d-md-center-block">
             @include('layouts.navigator')
         </div>
@@ -327,68 +269,18 @@
         <div class="row justify-content-center d-none d-md-center-block">
             @include('layouts.navigator')
         </div>
-    </div>
-<div class="row justify-content-center" style="width:100%;">
-    @include('layouts.navigator')
-</div>
-
-<footer class="bg-footer text-muted">
-        <div class="container">
-            <div class="row justify-content-around">
-                <div class="col-md-auto" style="left:-10%; width:350px;">
-                    <a href="/">
-                        <img src="/images/icons/logo.png" class="" alt="" style="width:80%;">
-                    </a>
-                </div>
-                <div class="col-12 col-md-auto mt-5 ">
-                    <p class="h2 mb-2 txt-white"><u>
-                            Телефоны:
-                        </u>
-                    </p>
-
-                    <address class="contacts">
-                        <p class="txt-white">+996 (***) ***-***</p>
-                    </address>
-
-
-
-                    <address>
-                        <p class="txt-white">+996 (***) ***-***</p>
-                    </address>
-
-                </div>
-                <div class="col-12 col-md-auto px-5 mb-4 mb-md-0 mt-5 ">
-                    <p class="h2 mb-2 txt-white"><u>E-mail:</u></p>
-                    <a href="#" target="_blank" class="text-muted txt-white">Verona.Residence@mail.ru</a>
-                </div>
-
-                <div class="col-12 col-md-auto mt-5 ">
-                    <p class="h2 mb-2 txt-white"><u>Соц. сетях:</u></p>
-                    <div class="small mb-4 mb-md-2  align-items-center">
-                        <i class="fab fa-2x fa-instagram text-light"></i>&nbsp;
-                        <a href="https://www.instagram.com/bayservice" target="_blank" class="text-muted txt-white">https://www.instagram.com/bayservice</a>
-                    </div>
-                    <div class="small mb-4 mb-md-2 align-items-center">
-                        <i class="fab fa-2x fa-facebook text-light"></i>&nbsp;
-                        <a href="https://www.facebook.com/bayservice" target="_blank" class="text-muted txt-white">https://www.facebook.com/bayservice</a>
-                    </div>
-
-
-                </div>
-            </div>
-
-
-
-            <div class="row justify-content-center">
-                <p class="small text-muted py-3">Made with &hearts; by <a href="">Mount</a></p>
-            </div>
+        <div class="row justify-content-center">
+            @include('layouts.navigator')
         </div>
-    </footer>
+    </div>
 
-    <script src="{{ asset('js/app.js') }}"></script>
+@endsection
+
+@section('javascripts')
+
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-    {{--<script type="text/javascript" src="{{ asset('/css/owlcarousel/dist/owl.carousel.min.js') }}"></script>--}}
     <script type="text/javascript" src="{{asset('/css/fancybox/fancybox/jquery.fancybox-1.3.4.pack.js')}}"></script>
     <script>$("a.grouped_elements").fancybox();</script>
-    </body>
-    </html>
+
+@endsection
+
