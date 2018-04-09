@@ -47,7 +47,7 @@
             </div>
         </div>
 
-        <div class="row col-12 col-md-10 justify-content-center mb-5">
+        <div class="row col-12 col-md-10 justify-content-center mb-5 mx-md-auto">
             <div class="col-12 mb-3 ml-5" ><p style="font-family: Forum; font-size: 32px; text-transform: uppercase;">Отличное расположение</p><hr></div>
             <div class="col-md-1 col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
             </div>
@@ -72,7 +72,7 @@
 
         </div>
 
-        <div class="row col-12 col-md-10 justify-content-center mb-5">
+        <div class="row col-12 col-md-10 justify-content-center mb-5 mx-md-auto">
                 <div class="col-12 mb-3 ml-5" ><p style="font-family: Forum; font-size: 32px; text-transform: uppercase;">Богатая территория</p><hr></div>
                 <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/ground.png" style=" margin-right:10px;" alt="">
                 </div>
@@ -130,7 +130,7 @@
             </div>
         </div>
 
-        <div class="row col-12 col-md-10 justify-content-center mb-5">
+        <div class="row col-12 col-md-10 justify-content-center mb-5 mx-md-auto">
                 <div class="col-12 mb-3 ml-5" ><p style="font-family: Forum; font-size: 32px; text-transform: uppercase;">Современный комплекс</p><hr></div>
                 <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/thumbs-up.png" style=" margin-right:10px;" alt="">
                 </div>
