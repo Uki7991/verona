@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="container mb-5">
-        
+
         <div class="row">
             <div class="text-center mx-auto col-11 col-lg-6">
                 <h2 class="text-verona text-center"><hr>Контакты<hr></h2>
@@ -28,7 +28,7 @@
                     <label for="exampleInputPassword1" class="font-weight-bold">Ваш номер телефона:</label>
                     <input type="tel" class="form-control mx-auto col-12 col-lg-6 text-center" id="exampleInputPassword1" placeholder="+996 (700) 700 - 700">
                 </div>
-                <button type="submit" class="btn btn-primary">Оставить заявку!</button>
+                <button type="submit" class="btn btn-verona">Оставить заявку!</button>
             </form>
         </div>
     </div>
