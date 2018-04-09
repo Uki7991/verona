@@ -14,7 +14,7 @@
     <style>
         #app {
             background-image: url(/images/renders/01_Day.png);
-            background-size: 100%;
+            background-size: cover;
             background-repeat: no-repeat;
         }
         .btn-verona {
@@ -43,16 +43,16 @@
 
 <div id="app" class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-auto text-center">
-            <img src="/images/icons/logo1.png" alt="" style="width:50%;">
+        <div class="col-lg-auto col-12 text-center">
+            <img src="/images/icons/logo1.png" alt="" class="w-50">
         </div>
     </div>
     <div class="row justify-content-center">
-        <span class="h4" style="font-family: Georgia; font-weight: lighter; font-size: 26px; color:#514239; letter-spacing: 7px;">представляет</span>
+        <span class="h4" style="font-family: Georgia; font-weight: lighter; color:#514239; letter-spacing: 7px;">представляет</span>
     </div>
     <div class="row my-2 justify-content-center">
-        <div class="col-auto">
-            <img style="width:770px; " src="/images/residence.png" alt="">
+        <div class="col-lg-auto col-12">
+            <img src="/images/residence.png" alt="" class="img-fluid">
         </div>
     </div>
     <div class="row justify-content-center my-5">
