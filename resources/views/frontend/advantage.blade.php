@@ -147,7 +147,8 @@
             <div class="card-body">
                 <hr>
                 <p class="card-text">АЛЮМИНИЕВЫЕ ОКНА И ЛОДЖИИ ИЗ ВЫСОКОКАЧЕСТВЕННОГО ПРОФИЛЯ С ТЕРМОМОСТОМ И С ЭНЕРГОСБЕРЕГАЮЩИМИ СТЕКЛОПАКЕТАМИ</p>
-            </div><hr></div>
+            </div><hr>
+        </div>
     </div>
 
     <h2 class="text-center h2 m-md-5 w-100" style="font-family: Forum;"><hr>Фасад<hr></h2>
@@ -173,7 +174,7 @@
                 <p class="card-text">КРУГЛОСУТОЧНОЕ ВИДЕО-НАБЛЮДЕНИЕ ПОЗВОЛИТ ВАМ БЫТЬ УВЕРЕННЫМИ В СВОЕЙ БЕЗОПАСНОСТИ И БЕЗОПАСНОСТИ ВАШИХ ЛИЧНЫХ ВЕЩЕЙ.</p>
             </div><hr></div>
         <div class="col-md-8 col-12 mt-md-5"><img src="/images/renders/16_E_2.jpg" class="w-100" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;" alt=""></div>
-        <div class="col-md-3 col-12 mr-md-5 text-center" style="font-family: forum; text-transform: uppercase;"><hr><div class="card-header mt-md-4">
+        <div class="col-md-3 col-12 mr-md-5 text-center d-md-none" style="font-family: forum; text-transform: uppercase;"><hr><div class="card-header mt-md-4">
                 <img src="/images/icons/cctv.png" class="img-fluid" alt="">
             </div>
             <div class="card-body">

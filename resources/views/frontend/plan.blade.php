@@ -21,10 +21,6 @@
             @include('layouts.navigator')
 
         </div>
-    </div>
-    <div class="row justify-content-center">
-        @include('layouts.navigator')
-    </div>
 
         <div class="row">
             <h2 style="font-family: forum; text-transform: uppercase;" class=" text-center text-verona col-12"><hr>Коммерческие помещения в ЖК «Verona Residence» (1-2 этажи)<hr></h2>
@@ -167,9 +163,6 @@
         <!--</div>-->
     <div class="line text-center mb-5 mt-5"><img style="width:30%;" src="/images/2.png" alt=""></div>
 
-        <div class="row justify-content-center">
-            @include('layouts.navigator')
-        </div>
         <div class="row justify-content-center">
             @include('layouts.navigator')
         </div>

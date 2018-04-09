@@ -100,12 +100,9 @@
 
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-sand" style="font-family: forum; text-transform: uppercase;">
     <div class="container">
-        <a class="navbar-brand" style="height:10%;">
-            <img src="/images/Icons/logo.png" style="width:20%;" usemap="#Map" alt="">
+        <a class="navbar-brand" href="#">
+            <img src="/images/Icons/logo.png" class="img-fluid" width="100" alt="">
         </a>
-        <map name="Map" id="Map">
-            <area alt="" title="" href="/" shape="poly" coords="2,0,172,0,172,248,86,209,3,249" />
-        </map>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
