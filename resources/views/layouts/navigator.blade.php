@@ -1,5 +1,5 @@
 
-<nav class="top-menu mt-5">
+<nav class="top-menu mb-5 mt-5">
     <ul class="menu-main">
         <li><a href="/description">Описание</a></li>
         <li><a href="/gallery">Галерея</a></li>
