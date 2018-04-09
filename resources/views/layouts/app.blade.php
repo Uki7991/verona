@@ -245,21 +245,20 @@
                     <i class="fab fa-2x fa-instagram text-light"></i>&nbsp;
                     <a href="https://www.instagram.com/bayservice" target="_blank" class="text-muted txt-white">https://www.instagram.com/bayservice</a>
                 </div>
-                <div class="small mb-4 mb-md-2 align-items-center">
-                    <i class="fab fa-2x fa-facebook text-light"></i>&nbsp;
-                    <a href="https://www.facebook.com/bayservice" target="_blank" class="text-muted txt-white">https://www.facebook.com/bayservice</a>
-                </div>
+<div class="small mb-4 mb-md-2 align-items-center">
+    <i class="fab fa-2x fa-facebook text-light"></i>&nbsp;
+    <a href="https://www.facebook.com/bayservice" target="_blank" class="text-muted txt-white">https://www.facebook.com/bayservice</a>
+</div>
 
 
-            </div>
-        </div>
+</div>
+</div>
 
 
 
-        <div class="row py-5 justify-content-center small text-muted">
-            <a href="http://mount.kg" target="_blank" class="text-muted mount-sign" style="font-size: larger;">Made with&nbsp;<span class="text-danger">&hearts;</span> by&nbsp;Mount</a>
-        </div>
-    </div>
+<div class="row py-5 justify-content-center small text-muted">
+    <a href="http://mount.kg" target="_blank" class="text-muted mount-sign" style="font-size: larger;">Made with&nbsp;<span class="text-danger">&hearts;</span> by&nbsp;Mount</a>
+</div>
 </footer>
 <script src="{{ asset('js/app.js') }}"></script>
 <script type="text/javascript" src="{{ asset('/css/owlcarousel/dist/owl.carousel.min.js') }}"></script>

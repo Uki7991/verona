@@ -2,7 +2,8 @@
 
 @section('content')
 
-    <div class="row my-5 justify-content-center">
+    <div class="container mb-5">
+    <div class="row my-5 justify-content-center main-verona">
         <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
             <img src="/images/residence1.png" class="img-fluid" alt="">
         </div>
@@ -10,20 +11,26 @@
     <div class="row justify-content-center">
         @include('layouts.navigator')
     </div>
-    <div class="container">
 
-
-        <div class="row justify-content-center d-none d-md-center-block">
-            @include('layouts.navigator')
-        </div>
-
-        <div class="row">
+        <div class="row d-none d-md-block">
             <h2 class="text-verona text-center col-6"><hr>Контакты<hr></h2>
             <h3 class="text-verona text-center col-6"><hr>Оставьте заявку<hr></h3>
         </div>
+        <div class="row d-md-none" style="font-size: 20px;">
+            <span class="text-verona text-center col-6"><hr>Контакты<hr></span>
+            <span class="text-verona text-center col-6"><hr>Оставьте заявку<hr></span>
+        </div>
 
         <div class="row">
-            <div class="text-center col-6" style="font-size: 24px;">
+            <div class="text-center col-6 d-none d-md-block" style="font-size: 24px;">
+                <h3 class="my-3"><u>Телефоны:</u></h3>
+                <p class="font-weight-bold">+996 (***) ***-***</p>
+                <p class="font-weight-bold ">+996 (***) ***-***</p>
+
+                <h3 class=" my-3"><u>E-mail:</u></h3>
+                <p class="font-weight-bold">Verona.Residence@mail.ru</p>
+            </div>
+            <div class="text-center col-6 d-md-none" style="font-size: 12px;">
 
 
                 <h3 class="my-3"><u>Телефоны:</u></h3>
@@ -33,6 +40,7 @@
                 <h3 class=" my-3"><u>E-mail:</u></h3>
                 <p class="font-weight-bold">Verona.Residence@mail.ru</p>
             </div>
+
 
 
             <form class="text-verona text-center col-6">
@@ -62,12 +70,9 @@
         </div>
     </div>
     <div class="container">
-        <div class="line text-center m-5"><img src="/images/2.png" alt=""></div>
-        <div class="row justify-content-center d-none d-md-center-block">
+        <div class="line text-center mb-5 mt-5"><img style="width:30%;" src="/images/2.png" alt=""></div>
+        <div class="row justify-content-center">
             @include('layouts.navigator')
         </div>
-    </div>
-    <div class="row justify-content-center">
-        @include('layouts.navigator')
     </div>
 @endsection

@@ -17,7 +17,7 @@
     </div>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-10" style=" padding:12px; background-image:url(images/stipes2.png); background-size: 100px 100px;">
+            <div class="col-md-10 col-12" style=" padding:12px; background-image:url(images/stipes2.png); background-size: 100px 100px;">
                 <div class="owl-carousel owl-1">
                     <div class="item" data-hash="1"><img src="/images/renders/01_Day.jpg" alt=""></div>
                     <div class="item" data-hash="2"><img src="/images/renders/01_Evening.jpg" alt=""></div>
@@ -37,7 +37,7 @@
 
         <div class="container">
             <div class="row justify-content-center mt-3">
-                <div class="col-11 owl-carousel owl-2" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;">
+                <div class="col-md-11 col-12 owl-carousel owl-2" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;">
                     <div class="item"><a href="#1"><img src="/images/renders/01_Day.jpg" class="" alt=""></a></div>
                     <div class="item"><a href="#2"><img src="/images/renders/01_Evening.jpg" class="" alt=""></a></div>
                     <div class="item"><a href="#3"><img src="/images/renders/02_Day.jpg" class="" alt=""></a></div>
@@ -65,7 +65,7 @@
     </div>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-10" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;">
+            <div class="col-md-10 col-12" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;">
                 <div class="owl-carousel owl-1">
                     <div class="item" data-hash="14"><img src="/images/renders/08_D.png" alt=""></div>
                     <div class="item" data-hash="15"><img src="/images/renders/08_E.png" alt=""></div>
@@ -83,7 +83,7 @@
 
         <div class="container">
             <div class="row justify-content-center mt-3">
-                <div class="col-11 owl-carousel owl-2" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;">
+                <div class="col-md-11 col-12 owl-carousel owl-2" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;">
                     <div class="item"><a href="#14"><img src="/images/renders/08_D.png" class="" alt=""></a></div>
                     <div class="item"><a href="#15"><img src="/images/renders/08_E.png" class="" alt=""></a></div>
                     <div class="item"><a href="#16"><img src="/images/renders/09_D_2.png" class="" alt=""></a></div>
@@ -104,7 +104,7 @@
         </div>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-9" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;">
+                <div class="col-md-9 col-11" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;">
                     <div class="owl-carousel owl-1">
                         <div class="item" data-hash="24"><img src="/images/renders/002_post.jpg" alt=""></div>
                         <div class="item" data-hash="25"><img src="/images/renders/004_post.jpg" alt=""></div>
@@ -116,7 +116,7 @@
 
             <div class="container">
                 <div class="row justify-content-center mt-3">
-                    <div class="col-11 owl-carousel owl-2" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;">
+                    <div class="col-md-11 col-12 owl-carousel owl-2" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;">
                         <div class="item"><a href="#24"><img src="/images/renders/002_post.jpg" class="" alt=""></a></div>
                         <div class="item"><a href="#25"><img src="/images/renders/004_post.jpg" class="" alt=""></a></div>
                         <div class="item"><a href="#26"><img src="/images/renders/005_2_post.jpg" class="" alt=""></a></div>

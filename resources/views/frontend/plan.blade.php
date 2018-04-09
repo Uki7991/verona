@@ -67,25 +67,21 @@
 </nav>
 
 
-<div class="row my-5 justify-content-center">
-    <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
-        <img src="/images/residence1.png" class="img-fluid" alt="">
-    </div>
-</div>
-<div class="row justify-content-center">
-    @include('layouts.navigator')
-</div>
-    <div class="container">
-
-        <div class="row justify-content-center d-none d-md-center-block">
-            @include('layouts.navigator')
+<div class="container">
+    <div class="row my-5 justify-content-center main-verona">
+        <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
+            <img src="/images/residence1.png" class="img-fluid" alt="">
         </div>
+    </div>
+    <div class="row justify-content-center">
+        @include('layouts.navigator')
+    </div>
 
         <div class="row">
             <h2 style="font-family: forum; text-transform: uppercase;" class=" text-center text-verona col-12"><hr>Коммерческие помещения в ЖК «Verona Residence» (1-2 этажи)<hr></h2>
         </div>
 
-        <div class="row col-12 justify-content-center mb-5">
+        <div class="row mb-5">
             <div class="col-6"><img src="/images/boutiques/boutique3.jpg" class="w-100" style="border:5px double #66676A;" alt="">
                 <hr>
                 <div class="text-center">
@@ -103,33 +99,23 @@
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <hr></div>
         </div>
-        <div class="row col-12 justify-content-center mb-5">
-            <div class="col-6"><img src="/images/boutiques/boutique2.jpg" class="w-100" style="border:5px double #66676A;"" alt="">
-            </div>
-            <div class="col-6">
+        <div class="row mb-5">
+            <div class="col-6"><img src="/images/boutiques/boutique2.jpg" class="w-100" style="border:5px double #66676A;" alt="">
                 <hr>
                 <div class="text-center">
                     <p style="font-size:26px; font-family: engraves">Торговые площадки</p>
                 </div>
                 <hr>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <hr>
-            </div>
-        </div>
-
-        <div class="row col-12 justify-content-center mb-5">
-            <div class="col-6">
+                <hr></div>
+            <div class="col-6"><img src="/images/boutiques/boutique4.jpg" class="w-100" style="border:5px double #66676A;" alt="">
                 <hr>
                 <div class="text-center">
                     <p style="font-size:26px; font-family: engraves">Торговые площадки</p>
                 </div>
                 <hr>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <hr>
-            </div>
-            <div class="col-6"><img src="/images/boutiques/boutique4.jpg" class="w-100" style="border:5px double #66676A;"" alt="">
-            </div>
-
+                <hr></div>
         </div>
 
 
@@ -137,8 +123,8 @@
             <h2 style="font-family: forum; text-transform: uppercase;" class=" text-center text-verona col-12"><hr>План типовых этажей в ЖК «Verona Residence» (3-12 этажи)<hr></h2>
         </div>
 
-        <div class="row col-12 justify-content-center mb-5">
-            <div class="col-4 mr-5">
+        <div class="row mb-5">
+            <div class="col-4 mr-5 d-none d-md-block">
                 <hr>
                 <div class="text-center">
                     <p style="font-size:26px; font-family: engraves">Квартиры</p>
@@ -148,7 +134,7 @@
                    </p>
                 <hr>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-12">
         <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                 <img src="/images/renders/Этажи.png" class="w-100" style="padding:12px; border:5px double #66676A;" usemap="#image-map">
@@ -180,8 +166,8 @@
         <div class="row">
             <h2 style="font-family: forum; text-transform: uppercase;" class=" text-center text-verona col-12"><hr>План пентхауса в ЖК «Verona Residence» (13 этаж)<hr></h2>
         </div>
-        <div class="row col-12 justify-content-center mb-5">
-        <div class="col-4 mr-5">
+        <div class="row mb-5">
+        <div class="col-4 mr-5 d-none d-md-block">
             <hr>
             <div class="text-center">
                 <p style="font-size:26px; font-family: engraves">Пентхаус</p>
@@ -191,7 +177,7 @@
                 </p>
             <hr>
         </div>
-        <div class="col-6">
+        <div class="col-md-6 col-12">
 
         <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
@@ -230,67 +216,116 @@
         <!--</ul>-->
         <!--</div>-->
         <!--</div>-->
-        <div class="line text-center m-5"><img src="/images/2.png" alt=""></div>
+    <div class="line text-center mb-5 mt-5"><img style="width:30%;" src="/images/2.png" alt=""></div>
 
-        <div class="row justify-content-center d-none d-md-center-block">
+        <div class="row justify-content-center">
             @include('layouts.navigator')
         </div>
     </div>
-<div class="row justify-content-center">
-    @include('layouts.navigator')
-</div>
-        <footer class="bg-footer text-muted">
-            <div class="container">
-                <div class="row justify-content-around">
-                    <div class="col-md-auto" style="left:-10%; width:350px;">
-                        <a href="/">
-                            <img src="/images/icons/logo.png" class="" alt="" style="width:80%;">
-                        </a>
-                    </div>
-                    <div class="col-12 col-md-auto mt-5 ">
-                        <p class="h2 mb-2 txt-white"><u>
-                                Телефоны:
-                            </u>
-                        </p>
+<footer class="bg-footer text-muted d-none d-md-block">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-md-auto" style="left:-10%; width:350px;">
+                <a href="/">
+                    <img src="/images/icons/logo.png" alt="" style="width:80%;">
+                </a>
+            </div>
+            <div class="col-12 col-md-auto mt-5 ">
+                <p class="h2 mb-2 txt-white"><u>
+                        Телефоны:
+                    </u>
+                </p>
 
-                        <address class="contacts">
-                            <p class="txt-white">+996 (***) ***-***</p>
-                        </address>
+                <address class="contacts">
+                    <p class="txt-white">+996 (***) ***-***</p>
+                </address>
 
 
 
-                        <address>
-                            <p class="txt-white">+996 (***) ***-***</p>
-                        </address>
+                <address>
+                    <p class="txt-white">+996 (***) ***-***</p>
+                </address>
 
-                    </div>
-                    <div class="col-12 col-md-auto px-5 mb-4 mb-md-0 mt-5 ">
-                        <p class="h2 mb-2 txt-white"><u>E-mail:</u></p>
-                        <a href="#" target="_blank" class="text-muted txt-white">Verona.Residence@mail.ru</a>
-                    </div>
+            </div>
+            <div class="col-12 col-md-auto px-5 mb-4 mb-md-0 mt-5 ">
+                <p class="h2 mb-2 txt-white"><u>E-mail:</u></p>
+                <a href="#" target="_blank" class="text-muted txt-white">Verona.Residence@mail.ru</a>
+            </div>
 
-                    <div class="col-12 col-md-auto mt-5 ">
-                        <p class="h2 mb-2 txt-white"><u>Соц. сетях:</u></p>
-                        <div class="small mb-4 mb-md-2  align-items-center">
-                            <i class="fab fa-2x fa-instagram text-light"></i>&nbsp;
-                            <a href="https://www.instagram.com/bayservice" target="_blank" class="text-muted txt-white">https://www.instagram.com/bayservice</a>
-                        </div>
-                        <div class="small mb-4 mb-md-2 align-items-center">
-                            <i class="fab fa-2x fa-facebook text-light"></i>&nbsp;
-                            <a href="https://www.facebook.com/bayservice" target="_blank" class="text-muted txt-white">https://www.facebook.com/bayservice</a>
-                        </div>
-
-
-                    </div>
+            <div class="col-12 col-md-auto mt-5 ">
+                <p class="h2 mb-2 txt-white"><u>Соц. сети:</u></p>
+                <div class="small mb-4 mb-md-2  align-items-center">
+                    <i class="fab fa-2x fa-instagram text-light"></i>&nbsp;
+                    <a href="https://www.instagram.com/bayservice" target="_blank" class="text-muted txt-white">https://www.instagram.com/bayservice</a>
+                </div>
+                <div class="small mb-4 mb-md-2 align-items-center">
+                    <i class="fab fa-2x fa-facebook text-light"></i>&nbsp;
+                    <a href="https://www.facebook.com/bayservice" target="_blank" class="text-muted txt-white">https://www.facebook.com/bayservice</a>
                 </div>
 
 
+            </div>
+        </div>
 
-                <div class="row justify-content-center">
-                    <p class="small text-muted py-3">Made with &hearts; by <a href="">Mount</a></p>
+
+
+        <div class="row py-5 justify-content-center small text-muted">
+            <a href="http://mount.kg" target="_blank" class="text-muted mount-sign">Made with&nbsp;<span class="text-danger">&hearts;</span> by&nbsp;Mount</a>
+        </div>
+    </div>
+</footer>
+<footer class="bg-footer text-muted d-lg-none d-xl-none">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-md-auto text-center" style="width:350px;">
+                <a href="/">
+                    <img src="/images/icons/logo.png" alt="" style="width:80%;">
+                </a>
+            </div>
+            <div class="row col-12 col-md-auto mt-5 ">
+                <div class="col-5">
+                    <p class="mb-2 txt-white"><u>
+                            Телефоны:
+                        </u>
+                    </p>
+
+                    <address class="contacts">
+                        <p class="txt-white">+996 (***) ***-***</p>
+                    </address>
+
+
+
+                    <address>
+                        <p class="txt-white">+996 (***) ***-***</p>
+                    </address>
+                </div>
+                <div class="col-6">
+                    <p class="mb-2 txt-white"><u>E-mail:</u></p>
+                    <a href="#" target="_blank" class="text-muted txt-white">Verona.Residence@mail.ru</a>
                 </div>
             </div>
-        </footer>
+        </div>
+        <div class="col-12 col-md-auto mt-5 ">
+            <p class="mb-2 txt-white"><u>Соц. сети:</u></p>
+            <div class="small mb-4 mb-md-2  align-items-center">
+                <i class="fab fa-2x fa-instagram text-light"></i>&nbsp;
+                <a href="https://www.instagram.com/bayservice" target="_blank" class="text-muted txt-white">https://www.instagram.com/bayservice</a>
+            </div>
+            <div class="small mb-4 mb-md-2 align-items-center">
+                <i class="fab fa-2x fa-facebook text-light"></i>&nbsp;
+                <a href="https://www.facebook.com/bayservice" target="_blank" class="text-muted txt-white">https://www.facebook.com/bayservice</a>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="row py-5 justify-content-center small text-muted">
+        <a href="http://mount.kg" target="_blank" class="text-muted mount-sign" style="font-size: larger;">Made with&nbsp;<span class="text-danger">&hearts;</span> by&nbsp;Mount</a>
+    </div>
+</footer>
 
     <script src="{{ asset('js/app.js') }}"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
