@@ -80,7 +80,9 @@
         <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -150,10 +152,11 @@
 
 
 
+
 @yield('content')
 
 
-<footer class="bg-footer text-muted">
+<footer class="bg-footer text-muted d-none d-md-block">
     <div class="container">
         <div class="row justify-content-around">
             <div class="col-md-auto" style="left:-10%; width:350px;">
@@ -184,7 +187,7 @@
             </div>
 
             <div class="col-12 col-md-auto mt-5 ">
-                <p class="h2 mb-2 txt-white"><u>Соц. сетях:</u></p>
+                <p class="h2 mb-2 txt-white"><u>Соц. сети:</u></p>
                 <div class="small mb-4 mb-md-2  align-items-center">
                     <i class="fab fa-2x fa-instagram text-light"></i>&nbsp;
                     <a href="https://www.instagram.com/bayservice" target="_blank" class="text-muted txt-white">https://www.instagram.com/bayservice</a>
@@ -205,7 +208,59 @@
         </div>
     </div>
 </footer>
+<footer class="bg-footer text-muted d-lg-none d-xl-none">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-md-auto text-center" style="width:350px;">
+                <a href="/">
+                    <img src="/images/icons/logo.png" alt="" style="width:80%;">
+                </a>
+            </div>
+            <div class="row col-12 col-md-auto mt-5 ">
+                <div class="col-5">
+                <p class="mb-2 txt-white"><u>
+                        Телефоны:
+                    </u>
+                </p>
 
+                <address class="contacts">
+                    <p class="txt-white">+996 (***) ***-***</p>
+                </address>
+
+
+
+                <address>
+                    <p class="txt-white">+996 (***) ***-***</p>
+                </address>
+            </div>
+<div class="col-6">
+                <p class="mb-2 txt-white"><u>E-mail:</u></p>
+                <a href="#" target="_blank" class="text-muted txt-white">Verona.Residence@mail.ru</a>
+            </div>
+            </div>
+    </div>
+            <div class="col-12 col-md-auto mt-5 ">
+                <p class="mb-2 txt-white"><u>Соц. сети:</u></p>
+                <div class="small mb-4 mb-md-2  align-items-center">
+                    <i class="fab fa-2x fa-instagram text-light"></i>&nbsp;
+                    <a href="https://www.instagram.com/bayservice" target="_blank" class="text-muted txt-white">https://www.instagram.com/bayservice</a>
+                </div>
+                <div class="small mb-4 mb-md-2 align-items-center">
+                    <i class="fab fa-2x fa-facebook text-light"></i>&nbsp;
+                    <a href="https://www.facebook.com/bayservice" target="_blank" class="text-muted txt-white">https://www.facebook.com/bayservice</a>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="row py-5 justify-content-center small text-muted">
+            <a href="http://mount.kg" target="_blank" class="text-muted mount-sign" style="font-size: larger;">Made with&nbsp;<span class="text-danger">&hearts;</span> by&nbsp;Mount</a>
+        </div>
+    </div>
+</footer>
 <script src="{{ asset('js/app.js') }}"></script>
 <script type="text/javascript" src="{{ asset('/css/owlcarousel/dist/owl.carousel.min.js') }}"></script>
 <script>
@@ -217,8 +272,8 @@
             dots: false,
             animateOut: 'fadeOut',
             nav: true,
-            navText: ['<i class="fas fa-2x fa-chevron-left"></i>',
-                '<i class="fas fa-2x fa-chevron-right"></i>']
+            navText: ['<i class="fas fa-2x fa-chevron-left d-none d-md-block"></i>',
+                '<i class="fas fa-2x fa-chevron-right d-none d-md-block"></i>']
 
         });
 
@@ -229,8 +284,8 @@
             dots: false,
             animateOut: 'fadeOut',
             nav: true,
-            navText: ['<i class="fas fa-2x fa-chevron-left"></i>',
-                '<i class="fas fa-2x fa-chevron-right"></i>']
+            navText: ['<i class="fas fa-2x fa-chevron-left d-none d-md-block"></i>',
+                '<i class="fas fa-2x fa-chevron-right d-none d-md-block"></i>']
 
         })
     });
@@ -247,8 +302,8 @@
             dots: false,
             animateOut: 'fadeOut',
             nav: true,
-            navText: ['<i class="fas fa-2x fa-chevron-left"></i>',
-                '<i class="fas fa-2x fa-chevron-right"></i>']
+            navText: ['<i class="fas fa-2x fa-chevron-left d-none d-md-block"></i>',
+                '<i class="fas fa-2x fa-chevron-right d-none d-md-block"></i>']
         });
     });
 </script>

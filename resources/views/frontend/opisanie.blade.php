@@ -3,8 +3,8 @@
 @section('content')
 
 
-
-        <div class="row my-5 justify-content-center">
+    <div class="container">
+        <div class="row my-5 justify-content-center main-verona">
             <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
                 <img src="/images/residence1.png" class="img-fluid" alt="">
             </div>
@@ -12,14 +12,9 @@
         <div class="row justify-content-center">
             @include('layouts.navigator')
         </div>
-        <div class="container">
-
-        <div class="row justify-content-center d-none d-md-center-block">
-            @include('layouts.navigator')
-        </div>
 
         <div class="row mb-5 justify-content-center">
-            <div class="owl-carousel owl-theme w-75" style=" padding:12px; background-image:url(images/stipes2.png); background-size: 100px 100px;" >
+            <div class="owl-carousel owl-theme col-md-10" style=" padding:12px; background-image:url(images/stipes2.png); background-size: 100px 100px;" >
                 <div class="item">
                     <img src="/images/Renders/01_Day.jpg" alt="">
                 </div>
@@ -54,25 +49,25 @@
                 <div class="row my-3 justify-content-center">
                     <div class="row col-12 col-md-10 justify-content-center mb-5">
                         <div class="col-12 mb-3 ml-5" ><p style="font-family: Forum; font-size: 32px; text-transform: uppercase;">Отличное расположение</p><hr></div>
-                        <div class="col-1" style="margin-bottom:20px;"><img class="ml-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
+                        <div class="col-md-1" style="margin-bottom:20px;"><img class="ml-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
                         </div>
-                        <div class="col-11 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой  </span>
+                        <div class="col-md-11 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой  </span>
                         </div>
-                        <div class="col-1" style="margin-bottom:20px;"><img class="ml-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
+                        <div class="col-md-1" style="margin-bottom:20px;"><img class="ml-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
                         </div>
-                        <div class="col-11 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Хороший район с безупреной инфраструктурой  </span>
+                        <div class="col-md-11 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Хороший район с безупреной инфраструктурой  </span>
                         </div>
-                        <div class="col-1" style="margin-bottom:20px;"><img class="ml-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
+                        <div class="col-md-1" style="margin-bottom:20px;"><img class="ml-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
                         </div>
-                        <div class="col-11 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Близкое расположение школ, гимназий и лицеи  </span>
+                        <div class="col-md-11 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Близкое расположение школ, гимназий и лицеи  </span>
                         </div>
-                        <div class="col-1" style="margin-bottom:20px;"><img class="ml-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
+                        <div class="col-md-1" style="margin-bottom:20px;"><img class="ml-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
                         </div>
-                        <div class="col-11 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Рядом расположен большой оптомаркет Бишкек, множества кафе и Ресторан Золотой дракон </span>
+                        <div class="col-md-11 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Рядом расположен большой оптомаркет Бишкек, множества кафе и Ресторан Золотой дракон </span>
                         </div>
-                        <div class="col-1" style="margin-bottom:20px;"><img class="ml-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
+                        <div class="col-md-1" style="margin-bottom:20px;"><img class="ml-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
                         </div>
-                        <div class="col-11 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Удобная транпортная развязка обеспечивает бесприпятственный доступ ко всем частям города Бишкек</span>
+                        <div class="col-md-11 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Удобная транпортная развязка обеспечивает бесприпятственный доступ ко всем частям города Бишкек</span>
                         </div>
 
                     </div>
@@ -105,7 +100,7 @@
 
 
                 <div class="row my-5 justify-content-center">
-                    <div class="owl-carousel owl-theme w-75" style=" padding:12px; background-image:url(images/stipes2.png); background-size: 100px 100px;">
+                    <div class="owl-carousel owl-theme col-md-10" style=" padding:12px; background-image:url(images/stipes2.png); background-size: 100px 100px;">
                         <div class="item">
                             <img src="/images/Renders/08_D.png" alt="">
                         </div>
@@ -177,14 +172,12 @@
 
                 <div class="line text-center"><img src="/images/2.png" alt=""></div>
 
-                <div class="row justify-content-center d-none d-md-center-block">
+                <div class="row justify-content-center">
                     @include('layouts.navigator')
                 </div>
             </div>
         </div>
     </div>
-        <div class="row justify-content-center">
-            @include('layouts.navigator')
-        </div>
+
 
 @endsection

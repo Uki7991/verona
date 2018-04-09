@@ -149,11 +149,12 @@ forum {
 .menu-main li {
     display: inline-block;
     margin-right: -4px;
+    margin-bottom: 3px;
 }
 .menu-main a {
     text-decoration: none;
     display: inline-block;
-    padding: 15px 30px;
+    padding: 15px 20px;
     font-family: 'PT Sans Caption', sans-serif;
     color: #3b1600;
     transition: .3s linear;
@@ -166,9 +167,25 @@ forum {
         display: block;
         margin-right: 0;
     }
+    .menu-main a {
+        border:1px solid black;
+        text-decoration: none;
+        display: inline-block;
+        padding: 15px 30px;
+        font-family: 'PT Sans Caption', sans-serif;
+        color: #3b1600;
+        transition: .3s linear;
+    }
     .menu-main:before,
     .menu-main:after {content: none;}
     .menu-main a {display: block;}
+
+    .main-verona{
+        height:200px;
+
+    }
+    .main-slider{
+    }
 }
 .line {
     overflow: hidden;

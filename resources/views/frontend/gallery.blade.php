@@ -1,26 +1,23 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="row my-5 justify-content-center">
-        <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
-            <img src="/images/residence1.png" class="img-fluid" alt="">
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        @include('layouts.navigator')
-    </div>
-    <div class="container">
 
-        <div class="row justify-content-center d-none d-md-center-block">
-            @include('layouts.navigator')
-        </div>
+    <div class="container">
+            <div class="row my-5 justify-content-center main-verona">
+                <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
+                    <img src="/images/residence1.png" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                @include('layouts.navigator')
+            </div>
 
     <div class="row">
         <h2 style="font-family: forum; text-transform: uppercase;" class=" text-center text-verona col-12"><hr>Передний вид ЖК «Verona Residence»:<hr></h2>
     </div>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-9" style=" padding:12px; background-image:url(images/stipes2.png); background-size: 100px 100px;">
+            <div class="col-10" style=" padding:12px; background-image:url(images/stipes2.png); background-size: 100px 100px;">
                 <div class="owl-carousel owl-1">
                     <div class="item" data-hash="1"><img src="/images/renders/01_Day.jpg" alt=""></div>
                     <div class="item" data-hash="2"><img src="/images/renders/01_Evening.jpg" alt=""></div>
@@ -59,7 +56,7 @@
         </div>
 
 
-        <div class="line text-center m-5"><img src="/images/2.png" alt=""></div>
+        <div class="line text-center mb-5 mt-5 "><img style="width:30%;" src="/images/2.png" alt=""></div>
 
     </div>
 
@@ -68,7 +65,7 @@
     </div>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-9" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;">
+            <div class="col-10" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;">
                 <div class="owl-carousel owl-1">
                     <div class="item" data-hash="14"><img src="/images/renders/08_D.png" alt=""></div>
                     <div class="item" data-hash="15"><img src="/images/renders/08_E.png" alt=""></div>
@@ -101,13 +98,13 @@
             </div>
         </div>
 
-        <div class="line text-center m-5"><img src="/images/2.png" alt=""></div>
+        <div class="line text-center mb-5 mt-5"><img style="width:30%;" src="/images/2.png" alt=""></div>
         <div class="row">
             <h2 style="font-family: forum; text-transform: uppercase;" class=" text-center text-verona col-12"><hr>Холл-Ресепшн ЖК «Verona Residence»:<hr></h2>
         </div>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-7" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;">
+                <div class="col-9" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;">
                     <div class="owl-carousel owl-1">
                         <div class="item" data-hash="24"><img src="/images/renders/002_post.jpg" alt=""></div>
                         <div class="item" data-hash="25"><img src="/images/renders/004_post.jpg" alt=""></div>
@@ -129,15 +126,12 @@
             </div>
 
 
-            <div class="line text-center mt-5"><img src="/images/2.png" alt=""></div>
+            <div class="line text-center mb-5 mt-5"><img style="width:30%;" src="/images/2.png" alt=""></div>
 
-            <div class="row justify-content-center d-none d-md-center-block">
+            <div class="row justify-content-center">
                 @include('layouts.navigator')
             </div>
         </div>
     </div>
-    </div>
-    <div class="row justify-content-center">
-        @include('layouts.navigator')
     </div>
 @endsection

@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -63,12 +65,12 @@
         </div>
     </div>
 </nav>
-<div class="row my-5 justify-content-center">
+<div class="row my-5 justify-content-center" style="width:90%;">
     <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
         <img src="/images/residence1.png" class="img-fluid" alt="">
     </div>
 </div>
-<div class="row justify-content-center">
+<div class="row justify-content-center" style="width:90%;">
     @include('layouts.navigator')
 </div>
     <div class="container">
@@ -326,7 +328,7 @@
             @include('layouts.navigator')
         </div>
     </div>
-<div class="row justify-content-center">
+<div class="row justify-content-center" style="width:100%;">
     @include('layouts.navigator')
 </div>
 
