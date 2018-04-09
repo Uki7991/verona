@@ -17,55 +17,73 @@
         <div class="row justify-content-center">
             @include('layouts.navigator')
         </div>
-        <div class="row justify-content-center d-none d-md-center-block">
-            @include('layouts.navigator')
-
-        </div>
 
         <div class="row">
-            <h2 style="font-family: forum; text-transform: uppercase;" class=" text-center text-verona col-12"><hr>Коммерческие помещения в ЖК «Verona Residence» (1-2 этажи)<hr></h2>
+            <h2 style="font-family: forum; text-transform: uppercase;" class=" text-center text-verona col-12">
+                <hr>Коммерческие помещения в ЖК «Verona Residence» (1-2 этажи)<hr>
+            </h2>
         </div>
 
         <div class="row mb-5">
-            <div class="col-6"><img src="/images/boutiques/boutique3.jpg" class="w-100" style="border:5px double #66676A;" alt="">
+            <div class="col-6">
+                <img src="/images/boutiques/boutique3.jpg" class="img-fluid" style="border:5px double #66676A;" alt="">
                 <hr>
                 <div class="text-center">
                     <p style="font-size:26px; font-family: engraves">Торговые площадки</p>
                 </div>
                 <hr>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <hr></div>
-            <div class="col-6"><img src="/images/boutiques/boutique1.jpg" class="w-100" style="border:5px double #66676A;" alt="">
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <hr>
+            </div>
+            <div class="col-6">
+                <img src="/images/boutiques/boutique1.jpg" class="img-fluid" style="border:5px double #66676A;" alt="">
                 <hr>
                 <div class="text-center">
                     <p style="font-size:26px; font-family: engraves">Торговые площадки</p>
                 </div>
                 <hr>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <hr></div>
-        </div>
-        <div class="row mb-5">
-            <div class="col-6"><img src="/images/boutiques/boutique2.jpg" class="w-100" style="border:5px double #66676A;" alt="">
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
                 <hr>
-                <div class="text-center">
-                    <p style="font-size:26px; font-family: engraves">Торговые площадки</p>
-                </div>
-                <hr>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <hr></div>
-            <div class="col-6"><img src="/images/boutiques/boutique4.jpg" class="w-100" style="border:5px double #66676A;" alt="">
-                <hr>
-                <div class="text-center">
-                    <p style="font-size:26px; font-family: engraves">Торговые площадки</p>
-                </div>
-                <hr>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <hr></div>
+            </div>
         </div>
 
+        <div class="row mb-5">
+            <div class="col-6">
+                <img src="/images/boutiques/boutique2.jpg" class="img-fluid" style="border:5px double #66676A;" alt="">
+                <hr>
+                <div class="text-center">
+                    <p style="font-size:26px; font-family: engraves">Торговые площадки</p>
+                </div>
+                <hr>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <hr>
+            </div>
+            <div class="col-6">
+                <img src="/images/boutiques/boutique4.jpg" class="img-fluid" style="border:5px double #66676A;" alt="">
+                <hr>
+                <div class="text-center">
+                    <p style="font-size:26px; font-family: engraves">Торговые площадки</p>
+                </div>
+                <hr>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <hr>
+            </div>
+        </div>
 
         <div class="row">
-            <h2 style="font-family: forum; text-transform: uppercase;" class=" text-center text-verona col-12"><hr>План типовых этажей в ЖК «Verona Residence» (3-12 этажи)<hr></h2>
+            <h2 style="font-family: forum; text-transform: uppercase;" class=" text-center text-verona col-12">
+                <hr>
+                План типовых этажей в ЖК «Verona Residence» (3-12 этажи)
+                <hr>
+            </h2>
         </div>
 
         <div class="row mb-5">
@@ -75,76 +93,80 @@
                     <p style="font-size:26px; font-family: engraves">Квартиры</p>
                 </div>
                 <hr>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                   </p>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
                 <hr>
             </div>
             <div class="col-md-6 col-12">
-        <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <img src="/images/renders/Этажи.png" class="w-100" style="padding:12px; border:5px double #66676A;" usemap="#image-map">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <img src="/images/renders/Этажи.png" class="w-100" style="padding:12px; border:5px double #66676A;" usemap="#image-map">
 
-                <a href="/images/renders/этаж1.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 50%; left: 13%; width: 135px; height: 130px;"></a>
-                <a href="/images/renders/этаж2.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 72%; left: 12%; width: 165px; height: 110px;"></a>
-                <a href="/images/renders/этаж3.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 70%; left: 43%; width: 220px; height: 110px;"></a>
-                <a href="/images/renders/этаж4.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 47%; left: 43%; width: 220px; height: 130px;"></a>
-                <a href="/images/renders/этаж5.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 34%; left: 57%; width: 150px; height: 85px;"></a>
-                <a href="/images/renders/этаж7.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 6%; left: 38%; width: 85px; height: 160px;"></a>
-                <a href="/images/renders/этаж6.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 5%; left: 54%; width: 170px; height: 170px;"></a>
+                        <a href="/images/renders/этаж1.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 50%; left: 13%; width: 135px; height: 130px;"></a>
+                        <a href="/images/renders/этаж2.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 72%; left: 12%; width: 165px; height: 110px;"></a>
+                        <a href="/images/renders/этаж3.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 70%; left: 43%; width: 220px; height: 110px;"></a>
+                        <a href="/images/renders/этаж4.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 47%; left: 43%; width: 220px; height: 130px;"></a>
+                        <a href="/images/renders/этаж5.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 34%; left: 57%; width: 150px; height: 85px;"></a>
+                        <a href="/images/renders/этаж7.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 6%; left: 38%; width: 85px; height: 160px;"></a>
+                        <a href="/images/renders/этаж6.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 5%; left: 54%; width: 170px; height: 170px;"></a>
 
-            </div>
-            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                <img src="/images/renders/Этажи.png" class="img-fluid" alt="none">
-            </div>
-            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                <img src="/images/renders/Этажи.png" class="img-fluid" alt="none">
-            </div>
-            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                <img src="/images/renders/Этажи.png" class="img-fluid" alt="none">
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <img src="/images/renders/Этажи.png" class="img-fluid" alt="none">
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                        <img src="/images/renders/Этажи.png" class="img-fluid" alt="none">
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                        <img src="/images/renders/Этажи.png" class="img-fluid" alt="none">
+                    </div>
+                </div>
             </div>
         </div>
-            </div>
-        </div>
-
-
 
         <div class="row">
-            <h2 style="font-family: forum; text-transform: uppercase;" class=" text-center text-verona col-12"><hr>План пентхауса в ЖК «Verona Residence» (13 этаж)<hr></h2>
+            <h2 style="font-family: forum; text-transform: uppercase;" class=" text-center text-verona col-12">
+                <hr>
+                План пентхауса в ЖК «Verona Residence» (13 этаж)
+                <hr>
+            </h2>
         </div>
+
         <div class="row mb-5">
-        <div class="col-4 mr-5 d-none d-md-block">
-            <hr>
-            <div class="text-center">
-                <p style="font-size:26px; font-family: engraves">Пентхаус</p>
+            <div class="col-4 mr-5 d-none d-md-block">
+                <hr>
+                <div class="text-center">
+                    <p style="font-size:26px; font-family: engraves">Пентхаус</p>
+                </div>
+                <hr>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                <hr>
             </div>
-            <hr>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            <hr>
-        </div>
-        <div class="col-md-6 col-12">
+            <div class="col-md-6 col-12">
 
-        <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <!-- <img src="renders/09_D.png" class="img-fluid" alt="none"> -->
-                <img src="/images/renders/Пентхаус.PNG" class="w-100" style="padding:12px; border:5px double #66676A;" usemap="#image-map">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        <!-- <img src="renders/09_D.png" class="img-fluid" alt="none"> -->
+                        <img src="/images/renders/Пентхаус.PNG" class="w-100" style="padding:12px; border:5px double #66676A;" usemap="#image-map">
 
-                <a href="/images/renders/планировки-1.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: 53%; left: 11%; width: 210px; height: 290px;"></a>
-                <a href="/images/renders/планировки-2.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: 50%; left: 48%; width: 230px; height: 320px;"></a>
-                <a href="/images/renders/планировки-3.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: 5%; left: 38%; width: 290px; height: 320px;"></a>
+                        <a href="/images/renders/планировки-1.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: 53%; left: 11%; width: 210px; height: 290px;"></a>
+                        <a href="/images/renders/планировки-2.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: 50%; right: 0%; width: 230px; height: 320px;"></a>
+                        <a href="/images/renders/планировки-3.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: -5%; right: 0%; width: 290px; height: 320px;"></a>
 
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <img src="/images/renders/Пентхаус.PNG" class="img-fluid" alt="none">
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                        <img src="/images/renders/Пентхаус.PNG" class="img-fluid" alt="none">
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                        <img src="/images/renders/Пентхаус.PNG" class="img-fluid" alt="none">
+                    </div>
+                </div>
             </div>
-            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                <img src="/images/renders/Пентхаус.PNG" class="img-fluid" alt="none">
-            </div>
-            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                <img src="/images/renders/Пентхаус.PNG" class="img-fluid" alt="none">
-            </div>
-            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                <img src="/images/renders/Пентхаус.PNG" class="img-fluid" alt="none">
-            </div>
-        </div>
-        </div>
         </div>
 
 
@@ -161,7 +183,7 @@
         <!--</ul>-->
         <!--</div>-->
         <!--</div>-->
-    <div class="line text-center mb-5 mt-5"><img style="width:30%;" src="/images/2.png" alt=""></div>
+        <div class="line text-center mb-5 mt-5"><img style="width:30%;" src="/images/2.png" alt=""></div>
 
         <div class="row justify-content-center">
             @include('layouts.navigator')
