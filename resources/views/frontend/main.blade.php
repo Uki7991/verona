@@ -48,7 +48,7 @@
         </div>
     </div>
     <div class="row justify-content-center">
-        <span class="h4" style="font-family: Georgia; font-weight: lighter; color:#514239; letter-spacing: 7px;">представляет</span>
+        <span class="h4" style="font-family: Georgia; font-weight: bold; color:#514239; letter-spacing: 7px;">представляет</span>
     </div>
     <div class="row my-2 justify-content-center">
         <div class="col-lg-auto col-12">

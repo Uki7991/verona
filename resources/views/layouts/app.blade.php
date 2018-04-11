@@ -102,7 +102,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-sand" style="font-family: forum; text-transform: uppercase;">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img src="/images/Icons/logo.png" class="img-fluid" width="100" alt="">
+                <img src="/images/Icons/logo.png" class="img-fluid" width="110" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-lg text-light fa-bars"></i>
