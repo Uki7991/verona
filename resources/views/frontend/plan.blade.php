@@ -105,7 +105,7 @@
 
                         <a href="/images/Renders/этаж1.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 54%; left: 13%; width: 135px; height: 145px;"></a>
                         <a href="/images/Renders/этаж2.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 74%; left: 12%; width: 165px; height: 160px;"></a>
-                        <a href="/images/Renders/этаж3.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 73%; left: 43%; width: 240px; height: 160px;"></a>
+                        <a href="/images/Renders/этаж3.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 73%; left: 40%; width: 240px; height: 160px;"></a>
                         <a href="/images/Renders/этаж4.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 49%; left: 43%; width: 230px; height: 170px;"></a>
                         <a href="/images/Renders/этаж5.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 36%; left: 57%; width: 150px; height: 100px;"></a>
                         <a href="/images/Renders/этаж7.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 6%; left: 36%; width:105px; height: 210px;"></a>
@@ -152,8 +152,8 @@
                         <img src="/images/Renders/Пентхаус.PNG" class="w-100" style="padding:12px; border:5px double #66676A;" usemap="#image-map">
 
                         <a href="/images/Renders/планировки-1.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: 53%; left: 11%; width: 210px; height: 290px;"></a>
-                        <a href="/images/Renders/планировки-2.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: 50%; right: 0%; width: 230px; height: 320px;"></a>
-                        <a href="/images/Renders/планировки-3.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: -5%; right: 0%; width: 290px; height: 320px;"></a>
+                        <a href="/images/Renders/планировки-2.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: 50%; right: 4%; width: 230px; height: 320px;"></a>
+                        <a href="/images/Renders/планировки-3.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: -5%; right: 8%; width: 290px; height: 320px;"></a>
 
                     </div>
                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
