@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <style>
         #app {
-            background-image: url(/images/renders/01_Day.png);
+            background-image: url(/images/Renders/01_Day.png);
             background-size: cover;
             background-repeat: no-repeat;
         }
@@ -44,7 +44,7 @@
 <div id="app" class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-lg-auto col-12 text-center">
-            <img src="/images/icons/logo1.png" alt="" class="w-50">
+            <img src="/images/Icons/logo1.png" alt="" class="w-50">
         </div>
     </div>
     <div class="row justify-content-center">

@@ -101,25 +101,25 @@
             <div class="col-md-6 col-12">
                 <div class="tab-content" id="v-pills-tabContent">
                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                        <img src="/images/renders/Этажи.png" class="w-100" style="padding:12px; border:5px double #66676A;" usemap="#image-map">
+                        <img src="/images/Renders/Этажи.png" class="w-100" style="padding:12px; border:5px double #66676A;" usemap="#image-map">
 
-                        <a href="/images/renders/этаж1.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 54%; left: 13%; width: 135px; height: 145px;"></a>
-                        <a href="/images/renders/этаж2.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 74%; left: 12%; width: 165px; height: 160px;"></a>
-                        <a href="/images/renders/этаж3.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 73%; left: 43%; width: 240px; height: 160px;"></a>
-                        <a href="/images/renders/этаж4.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 49%; left: 43%; width: 230px; height: 170px;"></a>
-                        <a href="/images/renders/этаж5.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 36%; left: 57%; width: 150px; height: 100px;"></a>
-                        <a href="/images/renders/этаж7.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 6%; left: 36%; width:105px; height: 210px;"></a>
-                        <a href="/images/renders/этаж6.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 5%; left: 56%; width: 170px; height: 210px;"></a>
+                        <a href="/images/Renders/этаж1.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 54%; left: 13%; width: 135px; height: 145px;"></a>
+                        <a href="/images/Renders/этаж2.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 74%; left: 12%; width: 165px; height: 160px;"></a>
+                        <a href="/images/Renders/этаж3.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 73%; left: 43%; width: 240px; height: 160px;"></a>
+                        <a href="/images/Renders/этаж4.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 49%; left: 43%; width: 230px; height: 170px;"></a>
+                        <a href="/images/Renders/этаж5.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 36%; left: 57%; width: 150px; height: 100px;"></a>
+                        <a href="/images/Renders/этаж7.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 6%; left: 36%; width:105px; height: 210px;"></a>
+                        <a href="/images/Renders/этаж6.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 5%; left: 56%; width: 170px; height: 210px;"></a>
 
                     </div>
                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                        <img src="/images/renders/Этажи.png" class="img-fluid" alt="none">
+                        <img src="/images/Renders/Этажи.png" class="img-fluid" alt="none">
                     </div>
                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                        <img src="/images/renders/Этажи.png" class="img-fluid" alt="none">
+                        <img src="/images/Renders/Этажи.png" class="img-fluid" alt="none">
                     </div>
                     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                        <img src="/images/renders/Этажи.png" class="img-fluid" alt="none">
+                        <img src="/images/Renders/Этажи.png" class="img-fluid" alt="none">
                     </div>
                 </div>
             </div>
@@ -148,22 +148,22 @@
 
                 <div class="tab-content" id="v-pills-tabContent">
                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                        <!-- <img src="renders/09_D.png" class="img-fluid" alt="none"> -->
-                        <img src="/images/renders/Пентхаус.PNG" class="w-100" style="padding:12px; border:5px double #66676A;" usemap="#image-map">
+                        <!-- <img src="Renders/09_D.png" class="img-fluid" alt="none"> -->
+                        <img src="/images/Renders/Пентхаус.PNG" class="w-100" style="padding:12px; border:5px double #66676A;" usemap="#image-map">
 
-                        <a href="/images/renders/планировки-1.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: 53%; left: 11%; width: 210px; height: 290px;"></a>
-                        <a href="/images/renders/планировки-2.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: 50%; right: 0%; width: 230px; height: 320px;"></a>
-                        <a href="/images/renders/планировки-3.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: -5%; right: 0%; width: 290px; height: 320px;"></a>
+                        <a href="/images/Renders/планировки-1.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: 53%; left: 11%; width: 210px; height: 290px;"></a>
+                        <a href="/images/Renders/планировки-2.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: 50%; right: 0%; width: 230px; height: 320px;"></a>
+                        <a href="/images/Renders/планировки-3.png" rel="group2" class="grouped_elements" style="content: ''; position: absolute; top: -5%; right: 0%; width: 290px; height: 320px;"></a>
 
                     </div>
                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                        <img src="/images/renders/Пентхаус.PNG" class="img-fluid" alt="none">
+                        <img src="/images/Renders/Пентхаус.PNG" class="img-fluid" alt="none">
                     </div>
                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                        <img src="/images/renders/Пентхаус.PNG" class="img-fluid" alt="none">
+                        <img src="/images/Renders/Пентхаус.PNG" class="img-fluid" alt="none">
                     </div>
                     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                        <img src="/images/renders/Пентхаус.PNG" class="img-fluid" alt="none">
+                        <img src="/images/Renders/Пентхаус.PNG" class="img-fluid" alt="none">
                     </div>
                 </div>
             </div>

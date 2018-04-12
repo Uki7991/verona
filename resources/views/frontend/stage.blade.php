@@ -180,32 +180,32 @@
                             <div class="tab-pane fade" id="pills-2018-feb" role="tabpanel" aria-labelledby="pills-feb-tab">
                                 <div class="row">
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/07_D.jpg" rel="group1" class="grouped_elements"><img src="/images/renders/07_D.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/07_D.jpg" rel="group1" class="grouped_elements"><img src="/images/Renders/07_D.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/08_D.png" rel="group1" class="grouped_elements"><img src="/images/renders/08_D.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/08_D.png" rel="group1" class="grouped_elements"><img src="/images/Renders/08_D.png" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/08_E.png" rel="group1" class="grouped_elements"><img src="/images/renders/08_E.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/08_E.png" rel="group1" class="grouped_elements"><img src="/images/Renders/08_E.png" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/123.png" rel="group1" class="grouped_elements"><img src="/images/renders/123.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/123.png" rel="group1" class="grouped_elements"><img src="/images/Renders/123.png" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-2018-mar" role="tabpanel" aria-labelledby="pills-mar-tab">
                                 <div class="row">
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/1.png" rel="group1" class="grouped_elements"><img src="/images/renders/1.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/1.png" rel="group1" class="grouped_elements"><img src="/images/Renders/1.png" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/2.png" rel="group1" class="grouped_elements"><img src="/images/renders/2.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/2.png" rel="group1" class="grouped_elements"><img src="/images/Renders/2.png" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/08_E.png" rel="group1" class="grouped_elements"><img src="/images/renders/08_E.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/08_E.png" rel="group1" class="grouped_elements"><img src="/images/Renders/08_E.png" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/123.png" rel="group1" class="grouped_elements"><img src="/images/renders/123.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/123.png" rel="group1" class="grouped_elements"><img src="/images/Renders/123.png" class="img-fluid" alt=""></a>
                                     </div>
 
                                 </div>
@@ -229,48 +229,48 @@
                             <div class="tab-pane fade show active" id="pills-2019-sep" role="tabpanel" aria-labelledby="pills-sep-tab">
                                 <div class="row">
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/3.png" rel="group1" class="grouped_elements"><img src="/images/renders/07_D.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/3.png" rel="group1" class="grouped_elements"><img src="/images/Renders/07_D.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/07_E.jpg" rel="group1" class="grouped_elements"><img src="/images/renders/08_D.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/07_E.jpg" rel="group1" class="grouped_elements"><img src="/images/Renders/08_D.png" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/07_D.jpg" rel="group1" class="grouped_elements"><img src="/images/renders/08_E.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/07_D.jpg" rel="group1" class="grouped_elements"><img src="/images/Renders/08_E.png" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/123.png" rel="group1" class="grouped_elements"><img src="/images/renders/123.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/123.png" rel="group1" class="grouped_elements"><img src="/images/Renders/123.png" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-2019-okt" role="tabpanel" aria-labelledby="pills-okt-tab">
                                 <div class="row">
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/07_D.jpg" rel="group1" class="grouped_elements"><img src="/images/renders/07_D.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/07_D.jpg" rel="group1" class="grouped_elements"><img src="/images/Renders/07_D.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/08_D.png" rel="group1" class="grouped_elements"><img src="/images/renders/08_D.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/08_D.png" rel="group1" class="grouped_elements"><img src="/images/Renders/08_D.png" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/08_E.png" rel="group1" class="grouped_elements"><img src="/images/renders/08_E.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/08_E.png" rel="group1" class="grouped_elements"><img src="/images/Renders/08_E.png" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/123.png" rel="group1" class="grouped_elements"><img src="/images/renders/123.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/123.png" rel="group1" class="grouped_elements"><img src="/images/Renders/123.png" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-2019-nov" role="tabpanel" aria-labelledby="pills-nov-tab">
                                 <div class="row">
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/07_D.jpg" rel="group1" class="grouped_elements"><img src="/images/renders/07_D.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/07_D.jpg" rel="group1" class="grouped_elements"><img src="/images/Renders/07_D.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/08_D.png" rel="group1" class="grouped_elements"><img src="/images/renders/08_D.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/08_D.png" rel="group1" class="grouped_elements"><img src="/images/Renders/08_D.png" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/08_E.png" rel="group1" class="grouped_elements"><img src="/images/renders/08_E.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/08_E.png" rel="group1" class="grouped_elements"><img src="/images/Renders/08_E.png" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/renders/123.png" rel="group1" class="grouped_elements"><img src="/images/renders/123.png" class="img-fluid" alt=""></a>
+                                        <a href="/images/Renders/123.png" rel="group1" class="grouped_elements"><img src="/images/Renders/123.png" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
 

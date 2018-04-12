@@ -155,7 +155,7 @@
         <div class="row justify-content-center justify-content-lg-around text-center">
             <div class="col-12 col-lg-3 mt-5">
                 <a href="/">
-                    <img src="/images/icons/logo.png" class="img-fluid" alt="">
+                    <img src="/images/Icons/logo.png" class="img-fluid" alt="">
                 </a>
             </div>
             <div class="col-12 col-md-auto mt-5">
