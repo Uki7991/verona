@@ -10,7 +10,7 @@
 @section('content')
     <div class="container">
         <div class="row my-5 justify-content-center main-verona">
-            <div class="col-12 col-md-8 col-xl-auto row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-auto">
                 <img src="/images/residence1.png" class="img-fluid" alt="">
             </div>
         </div>
