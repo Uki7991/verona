@@ -93,17 +93,17 @@
 	z-index: 1101;
 }
 
-#fancybox-close {
-	position: absolute;
-	top: -15px;
-	right: -15px;
-	width: 30px;
-	height: 30px;
-	background: transparent url('fancybox.png') -40px 0px;
-	cursor: pointer;
-	z-index: 1103;
-	display: none;
-}
+/*#fancybox-close {*/
+	/*position: absolute;*/
+	/*top: -15px;*/
+	/*right: -15px;*/
+	/*width: 30px;*/
+	/*height: 30px;*/
+	/*background: transparent url('fancybox.png') -40px 0px;*/
+	/*cursor: pointer;*/
+	/*z-index: 1103;*/
+	/*display: none;*/
+/*}*/
 
 #fancybox-error {
 	color: #444;

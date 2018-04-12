@@ -103,13 +103,13 @@
                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                         <img src="/images/renders/Этажи.png" class="w-100" style="padding:12px; border:5px double #66676A;" usemap="#image-map">
 
-                        <a href="/images/renders/этаж1.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 50%; left: 13%; width: 135px; height: 130px;"></a>
-                        <a href="/images/renders/этаж2.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 72%; left: 12%; width: 165px; height: 110px;"></a>
-                        <a href="/images/renders/этаж3.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 70%; left: 43%; width: 220px; height: 110px;"></a>
-                        <a href="/images/renders/этаж4.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 47%; left: 43%; width: 220px; height: 130px;"></a>
-                        <a href="/images/renders/этаж5.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 34%; left: 57%; width: 150px; height: 85px;"></a>
-                        <a href="/images/renders/этаж7.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 6%; left: 38%; width: 85px; height: 160px;"></a>
-                        <a href="/images/renders/этаж6.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 5%; left: 54%; width: 170px; height: 170px;"></a>
+                        <a href="/images/renders/этаж1.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 54%; left: 13%; width: 135px; height: 145px;"></a>
+                        <a href="/images/renders/этаж2.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 74%; left: 12%; width: 165px; height: 160px;"></a>
+                        <a href="/images/renders/этаж3.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 73%; left: 43%; width: 240px; height: 160px;"></a>
+                        <a href="/images/renders/этаж4.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 49%; left: 43%; width: 230px; height: 170px;"></a>
+                        <a href="/images/renders/этаж5.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 36%; left: 57%; width: 150px; height: 100px;"></a>
+                        <a href="/images/renders/этаж7.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 6%; left: 36%; width:105px; height: 210px;"></a>
+                        <a href="/images/renders/этаж6.png" rel="group1" class="grouped_elements" style="content: ''; position: absolute; top: 5%; left: 56%; width: 170px; height: 210px;"></a>
 
                     </div>
                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
