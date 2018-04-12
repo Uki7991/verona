@@ -26,7 +26,7 @@
 
         <div class="row mb-5">
             <div class="col-6">
-                <img src="/images/boutiques/boutique3.jpg" class="img-fluid" style="border:5px double #66676A;" alt="">
+                <img src="/images/Boutiques/boutique3.jpg" class="img-fluid" style="border:5px double #66676A;" alt="">
                 <hr>
                 <div class="text-center">
                     <p style="font-size:26px; font-family: engraves">Торговые площадки</p>
@@ -38,7 +38,7 @@
                 <hr>
             </div>
             <div class="col-6">
-                <img src="/images/boutiques/boutique1.jpg" class="img-fluid" style="border:5px double #66676A;" alt="">
+                <img src="/images/Boutiques/boutique1.jpg" class="img-fluid" style="border:5px double #66676A;" alt="">
                 <hr>
                 <div class="text-center">
                     <p style="font-size:26px; font-family: engraves">Торговые площадки</p>
@@ -53,7 +53,7 @@
 
         <div class="row mb-5">
             <div class="col-6">
-                <img src="/images/boutiques/boutique2.jpg" class="img-fluid" style="border:5px double #66676A;" alt="">
+                <img src="/images/Boutiques/boutique2.jpg" class="img-fluid" style="border:5px double #66676A;" alt="">
                 <hr>
                 <div class="text-center">
                     <p style="font-size:26px; font-family: engraves">Торговые площадки</p>
@@ -65,7 +65,7 @@
                 <hr>
             </div>
             <div class="col-6">
-                <img src="/images/boutiques/boutique4.jpg" class="img-fluid" style="border:5px double #66676A;" alt="">
+                <img src="/images/Boutiques/boutique4.jpg" class="img-fluid" style="border:5px double #66676A;" alt="">
                 <hr>
                 <div class="text-center">
                     <p style="font-size:26px; font-family: engraves">Торговые площадки</p>

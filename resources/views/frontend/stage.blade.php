@@ -83,48 +83,48 @@
                             <div class="tab-pane fade show active" id="pills-2017-sep" role="tabpanel" aria-labelledby="pills-sep-tab">
                                 <div class="row">
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017сентябрь/3.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017сентябрь/3.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017сентябрь/3.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017сентябрь/3.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017сентябрь/10.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017сентябрь/10.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017сентябрь/10.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017сентябрь/10.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017сентябрь/15.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017сентябрь/15.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017сентябрь/15.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017сентябрь/15.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017сентябрь/6.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017сентябрь/6.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017сентябрь/6.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017сентябрь/6.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-2017-okt" role="tabpanel" aria-labelledby="pills-okt-tab">
                                 <div class="row">
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017октябрь/1.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017октябрь/1.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017октябрь/1.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017октябрь/1.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017октябрь/2.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017октябрь/2.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017октябрь/2.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017октябрь/2.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017октябрь/3.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017октябрь/3.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017октябрь/3.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017октябрь/3.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017октябрь/4.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017октябрь/4.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017октябрь/4.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017октябрь/4.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-2017-nov" role="tabpanel" aria-labelledby="pills-nov-tab">
                                 <div class="row">
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017ноябрь/1.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017ноябрь/1.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017ноябрь/1.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017ноябрь/1.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017ноябрь/2.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017ноябрь/2.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017ноябрь/2.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017ноябрь/2.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017ноябрь/3.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017ноябрь/3.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017ноябрь/3.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017ноябрь/3.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017ноябрь/4.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017ноябрь/4.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017ноябрь/4.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017ноябрь/4.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
 
@@ -132,16 +132,16 @@
                             <div class="tab-pane fade" id="pills-2017-dec" role="tabpanel" aria-labelledby="pills-dec-tab">
                                 <div class="row">
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017декабрь/1.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017декабрь/1.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017декабрь/1.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017декабрь/1.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017декабрь/2.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017декабрь/2.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017декабрь/2.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017декабрь/2.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017декабрь/3.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017декабрь/3.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017декабрь/3.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017декабрь/3.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2017декабрь/4.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2017декабрь/4.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2017декабрь/4.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2017декабрь/4.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
 
@@ -164,16 +164,16 @@
                             <div class="tab-pane fade show active" id="pills-2018-jan" role="tabpanel" aria-labelledby="pills-jan-tab">
                                 <div class="row">
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2018январь/1.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2018январь/1.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2018январь/1.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2018январь/1.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2018январь/1.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2018январь/1.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2018январь/1.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2018январь/1.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2018январь/1.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2018январь/1.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2018январь/1.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2018январь/1.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="col-md col-6 mb-2">
-                                        <a href="/images/stages/2018январь/1.jpg" rel="group1" class="grouped_elements"><img src="/images/stages/2018январь/1.jpg" class="img-fluid" alt=""></a>
+                                        <a href="/images/Stages/2018январь/1.jpg" rel="group1" class="grouped_elements"><img src="/images/Stages/2018январь/1.jpg" class="img-fluid" alt=""></a>
                                     </div>
                                 </div>
                             </div>
