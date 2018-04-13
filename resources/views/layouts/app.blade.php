@@ -136,7 +136,7 @@
 
                 <ul class="nav flex-column text-center">
                     <li class="nav-item">
-                        <a class="nav-link p-1 txt-white" href="#">+996 (777) 231 - 123</a>
+                        <a class="nav-link p-1 txt-white" href="#">+996 (702) 174 074</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link p-1 small txt-white" href="#">Verona.Residence@mail.ru</a>
@@ -165,10 +165,10 @@
                     </u>
                 </p>
                 <address class="contacts">
-                    <p class="txt-white">+996 (***) ***-***</p>
+                    <p class="txt-white">+996 (702) 174 074</p>
                 </address>
                 <address>
-                    <p class="txt-white">+996 (***) ***-***</p>
+                    <p class="txt-white">+996 (557) 174 074</p>
                 </address>
             </div>
 
