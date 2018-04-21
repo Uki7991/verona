@@ -11,4 +11,9 @@ class StageController extends Controller
     {
         return view('frontend.stage');
     }
+
+    public function back()
+    {
+        return view('backend.stage');
+    }
 }

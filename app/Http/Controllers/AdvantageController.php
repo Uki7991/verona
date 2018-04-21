@@ -11,4 +11,9 @@ class AdvantageController extends Controller
     {
         return view('frontend.advantage');
     }
+
+    public function back()
+    {
+        return view('backend.advantage');
+    }
 }

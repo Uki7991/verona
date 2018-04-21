@@ -11,4 +11,9 @@ class GalleryController extends Controller
     {
         return view('frontend.gallery');
     }
+
+    public function back()
+    {
+        return view('backend.gallery');
+    }
 }

@@ -7,10 +7,16 @@ use Illuminate\Http\Request;
 
 class PlanController extends Controller
 {
-    public function index() {
+    public function index()
+    {
+        return view('frontend.plan');
+    }
 
-    return view('frontend.plan');
-}
+    public function back()
+    {
+        return view('backend.plan');
+    }
+
     public function store(Request $request) {
         $plan = Plan::create($request->all());
 

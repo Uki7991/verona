@@ -11,4 +11,9 @@ class DescriptionController extends Controller
     {
         return view('frontend.opisanie');
     }
+
+    public function back()
+    {
+        return view('backend.opisanie');
+    }
 }
