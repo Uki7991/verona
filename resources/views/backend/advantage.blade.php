@@ -148,17 +148,73 @@
         </div>
 
 
-        <h2 class="text-center h2 m-md-5 w-100" style="font-family: Forum;"><hr>Видео-наблюдение<hr></h2>
+        <h2 class="text-center h2 m-md-5 w-100" style="font-family: Forum;">
+            <hr>
+            <form action="">
+                <input type="text" value="Видео-наблюдение">
+                <button type="submit" class="btn btn-warning">Редактировать</button>
+            </form>
+            <a href="/delete/title/id" class="btn btn-danger">Удалить</a>
+            <hr></h2>
         <div class="row">
-            <div class="col-md-8 col-12 mt-md-5"><img src="/images/Renders/16_E_2.jpg" class="w-100" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;" alt=""></div>
-            <div class="col-md-3 col-12 ml-md-5 text-center" style="font-family: forum; text-transform: uppercase;"><hr><div class="card-header mt-md-4">
+            <div class="col-md-8 col-12 mt-md-5"><img src="/images/Renders/16_E_2.jpg" class="w-100" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;" alt="">
+                <form action="">
+                    <input type="file">
+                    <button type="submit" class="btn btn-warning">Редактировать</button>
+                </form>
+            </div>
+            <div class="col-md-3 col-12 ml-md-5 text-center" style="font-family: forum; text-transform: uppercase;"><hr>
+                <form action="">
+                <div class="card-header mt-md-4">
                     <img src="/images/Icons/cctv.png" class="img-fluid" alt="">
+                    <input type="file">
                 </div>
                 <div class="card-body">
                     <hr>
-                    <p class="card-text">КРУГЛОСУТОЧНОЕ ВИДЕО-НАБЛЮДЕНИЕ ПОЗВОЛИТ ВАМ БЫТЬ УВЕРЕННЫМИ В СВОЕЙ БЕЗОПАСНОСТИ И БЕЗОПАСНОСТИ ВАШИХ ЛИЧНЫХ ВЕЩЕЙ.</p>
-                </div><hr></div>
+                    <p class="card-text">
+                        <textarea name="" id="" cols="30" rows="10">КРУГЛОСУТОЧНОЕ ВИДЕО-НАБЛЮДЕНИЕ ПОЗВОЛИТ ВАМ БЫТЬ УВЕРЕННЫМИ В СВОЕЙ БЕЗОПАСНОСТИ И БЕЗОПАСНОСТИ ВАШИХ ЛИЧНЫХ ВЕЩЕЙ.</textarea>
+                    </p>
+
+                </div><hr>
+                    <button type="submit" class="btn btn-warning">Редактировать</button>
+                </form>
+                <a href="/delete/benefit/id" class="btn btn-danger">Удалить</a>
+            </div>
         </div>
+
+        <h2 class="text-center h2 m-md-5 w-100" style="font-family: Forum;">
+            <hr>
+            <form action="">
+                <input type="text" value="Фасад">
+                <button type="submit" class="btn btn-warning">Редактировать</button>
+            </form>
+            <a href="/delete/title/id" class="btn btn-danger">Удалить</a>
+            <hr></h2>
+        <div class="row">
+            <div class="col-md-8 col-12">
+                <form action="">
+                    <input type="file">
+                    <button type="submit" class="btn btn-success">Создать картинку</button>
+                </form>
+            </div>
+            <div class="col-md-3 col-12 ml-md-5 text-center mt-md-4" style="font-family: forum; text-transform: uppercase;">
+                <form action="">
+                    <input type="file">
+                    <textarea name="" id="" cols="30" rows="10">
+
+                    </textarea>
+                    <button type="submit" class="btn btn-success">Создать</button>
+                </form>
+            </div>
+        </div>
+
+        <form action="">
+            <label for="title">Создать новый раздел</label>
+            <input id="title" type="text" name="title">
+            <button type="submit" class="btn btn-success">Create</button>
+        </form>
+
+
         <div class="line text-center mb-5 mt-5"><img style="width:30%;" src="/images/2.png" alt=""></div>
 
         <div class="row justify-content-center d-none d-md-center-block">
