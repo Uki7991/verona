@@ -4,14 +4,13 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Benefit extends Model
+class Slider extends Model
 {
-    protected $guarded = [];
-
-    public function texts() {
-        return $this->hasMany('App\Text');
+    //
+    public function images() {
+        return $this->hasMany('App\Image');
     }
     public function menu() {
         return $this->belongsTo('App\Menu');
-    }
+}
 }
