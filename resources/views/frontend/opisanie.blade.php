@@ -49,7 +49,7 @@
 
         <div class="row col-12 col-md-10 justify-content-center mb-5 mx-md-auto">
             <div class="col-12 mb-3 ml-5" ><p style="font-family: Forum; font-size: 32px; text-transform: uppercase;">Отличное расположение</p><hr></div>
-            <div class="col-md-1 col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
+            <div class="col-md-1 col-1" style=" margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
             </div>
             <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой  </span>
             </div>
