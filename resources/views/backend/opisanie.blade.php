@@ -22,7 +22,8 @@
             <div class="col-10" style=" padding:12px; background-image:url(images/stipes2.png); background-size: 100px 100px;" >
                 <div class="item">
                     <img src="/images/Renders/01_Day.jpg" alt="" class="img-fluid">
-                    <form action="">
+                    <form action="" enctype="multipart/form-data">
+                        {{ csrf_field() }}
                         <input type="file">
                         <button type="submit" class="btn btn-warning">Редактировать</button>
                     </form>
@@ -30,7 +31,8 @@
                 </div>
                 <div class="item">
                     <img src="/images/Renders/01_Evening.jpg" alt="" class="img-fluid">
-                    <form action="">
+                    <form action="" enctype="multipart/form-data">
+                        {{ csrf_field() }}
                         <input type="file">
                         <button type="submit" class="btn btn-warning">Редактировать</button>
                     </form>
@@ -38,7 +40,8 @@
                 </div>
                 <div class="item">
                     <img src="/images/Renders/02_Day.jpg" alt="" class="img-fluid">
-                    <form action="">
+                    <form action="" enctype="multipart/form-data">
+                        {{ csrf_field() }}
                         <input type="file">
                         <button type="submit" class="btn btn-warning">Редактировать</button>
                     </form>
@@ -46,7 +49,8 @@
                 </div>
                 <div class="item">
                     <img src="/images/Renders/02_Evening.jpg" alt="" class="img-fluid">
-                    <form action="">
+                    <form action="" enctype="multipart/form-data">
+                        {{ csrf_field() }}
                         <input type="file">
                         <button type="submit" class="btn btn-warning">Редактировать</button>
                     </form>
@@ -54,7 +58,8 @@
                 </div>
                 <div class="item">
                     <img src="/images/Renders/03_Day.jpg" alt="" class="img-fluid">
-                    <form action="">
+                    <form action="" enctype="multipart/form-data">
+                        {{ csrf_field() }}
                         <input type="file">
                         <button type="submit" class="btn btn-warning">Редактировать</button>
                     </form>
@@ -62,7 +67,8 @@
                 </div>
                 <div class="item">
                     <img src="/images/Renders/03_Evening.jpg" alt="" class="img-fluid">
-                    <form action="">
+                    <form action="" enctype="multipart/form-data">
+                        {{ csrf_field() }}
                         <input type="file">
                         <button type="submit" class="btn btn-warning">Редактировать</button>
                     </form>
@@ -70,7 +76,8 @@
                 </div>
                 <div class="item">
                     <img src="/images/Renders/06_Day.jpg" alt="" class="img-fluid">
-                    <form action="">
+                    <form action="" enctype="multipart/form-data">
+                        {{ csrf_field() }}
                         <input type="file">
                         <button type="submit" class="btn btn-warning">Редактировать</button>
                     </form>
@@ -78,13 +85,15 @@
                 </div>
                 <div class="item">
                     <img src="/images/Renders/06_Evening.jpg" alt="" class="img-fluid">
-                    <form action="">
+                    <form action="" enctype="multipart/form-data">
+                        {{ csrf_field() }}
                         <input type="file">
                         <button type="submit" class="btn btn-warning">Редактировать</button>
                     </form>
                     <a href="" class="btn btn-danger">Удалить</a>
                 </div>
-                <form action="" class="mt-5">
+                <form action="" class="mt-5" enctype="multipart/form-data">
+                    {{ csrf_field() }}
                     <label for="">Новая картинка</label>
                     <input type="file">
                     <button type="submit" class="btn btn-success">Еще картинка</button>
