@@ -44,7 +44,7 @@
 <div id="app" class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-lg-auto col-12 text-center">
-            <img src="/images/Icons/logo1.png" alt="" class="w-50">
+            <img src="/images/Icons/iman-logo3.png" alt="" class="w-50">
         </div>
     </div>
     <div class="row justify-content-center">
