@@ -117,9 +117,9 @@
             </div>
         </div>
 
-        <div class="row justify-content-center mx-md-auto bg-info p-3">
+        <div class="row justify-content-center mx-md-auto bg-info">
             <div class="col-12">
-                <h2 class="text-center">Секция Название</h2>
+                <h2 class="text-center text-light">Секция Название</h2>
             </div>
             <div class="col-12 mb-3 row justify-content-center">
                 <form action="" class="col">
@@ -132,93 +132,135 @@
                 </form>
             </div>
         </div>
+
         <div class="row justify-content-center mb-5 mx-md-auto bg-white">
 
-        <form class="col-12 mt-4" action="">
-                <div class="col-md-1 col-1" style="margin-bottom:20px;">
-                    <img class="ml-md-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
-                    <input type="file">
+            <form action="" class="col-4 my-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <img src="/images/Icons/marker.png" class="ml-md-3" alt="">
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                            <input type="file" name="img">
+                        </h6>
+                        <p class="card-text">
+                            <textarea name="" id="" class="col-12" rows="5">Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой</textarea>
+                        </p>
+                        <a href="#" class="card-link text-warning">Редактировать</a>
+                        <a href="#" class="card-link text-danger">Удалить</a>
+                    </div>
                 </div>
-                <div class="col-md-11 col-10 mb-3">
-                    <textarea name="" id="" cols="30" rows="10">
-                        Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой
-                    </textarea>
-                </div>
-                <button class="btn btn-warning" type="submit">Редактировать</button>
             </form>
-            <form class="col-12 mt-4" action="">
-                <div class="col-md-1 col-1" style="margin-bottom:20px;">
-                    <img class="ml-md-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
-                    <input type="file">
+
+            <form action="" class="col-4 my-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <img src="/images/Icons/marker.png" class="ml-md-3" alt="">
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                            <input type="file" name="img">
+                        </h6>
+                        <p class="card-text">
+                            <textarea name="" id="" class="col-12" rows="5">Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой</textarea>
+                        </p>
+                        <a href="#" class="card-link text-warning">Редактировать</a>
+                        <a href="#" class="card-link text-danger">Удалить</a>
+                    </div>
                 </div>
-                <div class="col-md-11 col-10 mb-3">
-                    <textarea name="" id="" cols="30" rows="10">
-                        Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой
-                    </textarea>
-                </div>
-                <button class="btn btn-warning" type="submit">Редактировать</button>
             </form>
-            <form class="col-12 mt-4" action="">
-                <div class="col-md-1 col-1" style="margin-bottom:20px;">
-                    <img class="ml-md-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
-                    <input type="file">
+            <form action="" class="col-4 my-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <img src="/images/Icons/marker.png" class="ml-md-3" alt="">
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                            <input type="file" name="img">
+                        </h6>
+                        <p class="card-text">
+                            <textarea name="" id="" class="col-12" rows="5">Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой</textarea>
+                        </p>
+                        <a href="#" class="card-link text-warning">Редактировать</a>
+                        <a href="#" class="card-link text-danger">Удалить</a>
+                    </div>
                 </div>
-                <div class="col-md-11 col-10 mb-3">
-                    <textarea name="" id="" cols="30" rows="10">
-                        Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой
-                    </textarea>
-                </div>
-                <button class="btn btn-warning" type="submit">Редактировать</button>
             </form>
-            <form class="col-12 mt-4" action="">
-                <div class="col-md-1 col-1" style="margin-bottom:20px;">
-                    <img class="ml-md-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
-                    <input type="file">
+            <form action="" class="col-4 my-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <img src="/images/Icons/marker.png" class="ml-md-3" alt="">
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                            <input type="file" name="img">
+                        </h6>
+                        <p class="card-text">
+                            <textarea name="" id="" class="col-12" rows="5">Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой</textarea>
+                        </p>
+                        <a href="#" class="card-link text-warning">Редактировать</a>
+                        <a href="#" class="card-link text-danger">Удалить</a>
+                    </div>
                 </div>
-                <div class="col-md-11 col-10 mb-3">
-                    <textarea name="" id="" cols="30" rows="10">
-                        Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой
-                    </textarea>
-                </div>
-                <button class="btn btn-warning" type="submit">Редактировать</button>
             </form>
-            <form class="col-12 mt-4" action="">
-                <div class="col-md-1 col-1" style="margin-bottom:20px;">
-                    <img class="ml-md-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
-                    <input type="file">
+            <form action="" class="col-4 my-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <img src="/images/Icons/marker.png" class="ml-md-3" alt="">
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                            <input type="file" name="img">
+                        </h6>
+                        <p class="card-text">
+                            <textarea name="" id="" class="col-12" rows="5">Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой</textarea>
+                        </p>
+                        <a href="#" class="card-link text-warning">Редактировать</a>
+                        <a href="#" class="card-link text-danger">Удалить</a>
+                    </div>
                 </div>
-                <div class="col-md-11 col-10 mb-3">
-                    <textarea name="" id="" cols="30" rows="10">
-                        Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой
-                    </textarea>
-                </div>
-                <button class="btn btn-warning" type="submit">Редактировать</button>
             </form>
-        </div>
+
+            <form action="" class="col-4 my-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Создать новый
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                            <input type="file" name="img">
+                        </h6>
+                        <p class="card-text">
+                            <textarea name="" id="" class="col-12" rows="5"></textarea>
+                        </p>
+                        <a href="#" class="card-link text-success">Создать</a>
+                    </div>
+                </div>
+            </form>
+
         </div>
 
         <div class="row col-12 col-md-10 justify-content-center mb-5 mx-md-auto">
-                <div class="col-12 mb-3 ml-5" ><p style="font-family: Forum; font-size: 32px; text-transform: uppercase;">Богатая территория</p><hr></div>
-                <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/ground.png" style=" margin-right:10px;" alt="">
-                </div>
-                <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Детская игровая площадка  </span>
-                </div>
-                <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/ground.png" style=" margin-right:10px;" alt="">
-                </div>
-                <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Беседка для тихих совместных вечеров и пикника  </span>
-                </div>
-                <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/ground.png" style=" margin-right:10px;" alt="">
-                </div>
-                <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Собственный фонтан с ночной подсветкой </span>
-                </div>
-                <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/ground.png" style=" margin-right:10px;" alt="">
-                </div>
-                <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Футбольная и баскетбольная площадка </span>
-                </div>
-
+            <div class="col-12 mb-3 ml-5" ><p style="font-family: Forum; font-size: 32px; text-transform: uppercase;">Богатая территория</p><hr></div>
+            <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/ground.png" style=" margin-right:10px;" alt="">
+            </div>
+            <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Детская игровая площадка  </span>
+            </div>
+            <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/ground.png" style=" margin-right:10px;" alt="">
+            </div>
+            <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Беседка для тихих совместных вечеров и пикника  </span>
+            </div>
+            <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/ground.png" style=" margin-right:10px;" alt="">
+            </div>
+            <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Собственный фонтан с ночной подсветкой </span>
+            </div>
+            <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/ground.png" style=" margin-right:10px;" alt="">
+            </div>
+            <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Футбольная и баскетбольная площадка </span>
             </div>
 
-
+        </div>
 
         <div class="row my-5 justify-content-center">
             <div class="owl-carousel owl-theme col-10" style=" padding:12px; background-image:url(images/stipes2.png); background-size: 100px 100px;">
@@ -256,38 +298,36 @@
         </div>
 
         <div class="row col-12 col-md-10 justify-content-center mb-5 mx-md-auto">
-                <div class="col-12 mb-3 ml-5" ><p style="font-family: Forum; font-size: 32px; text-transform: uppercase;">Современный комплекс</p><hr></div>
-                <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/thumbs-up.png" style=" margin-right:10px;" alt="">
-                </div>
-                <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">КОМПЛЕКС ОСНАЩЕН ВСЕМИ СИСТЕМАМИ ИНЖЕНЕРНЫХ КОММУНИКАЦИЙ (ЦЕНТРАЛЬНЫМ ОТОПЛЕНИЕМ, ВОДОСНАБЖЕНИЕМ, КАНАЛИЗАЦИЕЙ, ЭЛЕКТРОЭНЕРГИЕЙ) </span>
-                </div>
-                <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/thumbs-up.png" style=" margin-right:10px;" alt="">
-                </div>
-                <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Подземная автопаркинг и надземная гостевая автостоянка  </span>
-                </div>
-                <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/thumbs-up.png" style=" margin-right:10px;" alt="">
-                </div>
-                <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Бесшумные лифты мирового бренда </span>
-                </div>
-                <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/thumbs-up.png" style=" margin-right:10px;" alt="">
-                </div>
-                <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Высокоскоростной интернет, кабельное телевидение и цифровая телефонная линия  </span>
-                </div>
-                <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/thumbs-up.png" style=" margin-right:10px;" alt="">
-                </div>
-                <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Отделка Фасада из Натурального камня Травертин – сары таш </span>
-                </div>
-                <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/thumbs-up.png" style=" margin-right:10px;" alt="">
-                </div>
-                <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Круглосуточная охрана и видеонаблюдение</span>
-                </div>
-                <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/thumbs-up.png" style=" margin-right:10px;" alt="">
-                </div>
-                <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Сейсмостойкость – 9 баллов по шкале рихтера  </span>
-                </div>
+            <div class="col-12 mb-3 ml-5" ><p style="font-family: Forum; font-size: 32px; text-transform: uppercase;">Современный комплекс</p><hr></div>
+            <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/thumbs-up.png" style=" margin-right:10px;" alt="">
             </div>
-
-
+            <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">КОМПЛЕКС ОСНАЩЕН ВСЕМИ СИСТЕМАМИ ИНЖЕНЕРНЫХ КОММУНИКАЦИЙ (ЦЕНТРАЛЬНЫМ ОТОПЛЕНИЕМ, ВОДОСНАБЖЕНИЕМ, КАНАЛИЗАЦИЕЙ, ЭЛЕКТРОЭНЕРГИЕЙ) </span>
+            </div>
+            <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/thumbs-up.png" style=" margin-right:10px;" alt="">
+            </div>
+            <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Подземная автопаркинг и надземная гостевая автостоянка  </span>
+            </div>
+            <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/thumbs-up.png" style=" margin-right:10px;" alt="">
+            </div>
+            <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Бесшумные лифты мирового бренда </span>
+            </div>
+            <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/thumbs-up.png" style=" margin-right:10px;" alt="">
+            </div>
+            <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Высокоскоростной интернет, кабельное телевидение и цифровая телефонная линия  </span>
+            </div>
+            <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/thumbs-up.png" style=" margin-right:10px;" alt="">
+            </div>
+            <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Отделка Фасада из Натурального камня Травертин – сары таш </span>
+            </div>
+            <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/thumbs-up.png" style=" margin-right:10px;" alt="">
+            </div>
+            <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Круглосуточная охрана и видеонаблюдение</span>
+            </div>
+            <div class="col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/thumbs-up.png" style=" margin-right:10px;" alt="">
+            </div>
+            <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Сейсмостойкость – 9 баллов по шкале рихтера  </span>
+            </div>
+        </div>
 
         <div class="line text-center mb-5 mt-5"><img style="width:30%;" src="/images/2.png" alt=""></div>
 
