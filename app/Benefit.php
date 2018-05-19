@@ -11,6 +11,7 @@ class Benefit extends Model
     public function texts() {
         return $this->hasMany('App\Text');
     }
+
     public function menu() {
         return $this->belongsTo('App\Menu');
     }

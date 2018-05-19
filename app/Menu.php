@@ -7,13 +7,23 @@ use Illuminate\Database\Eloquent\Model;
 class Menu extends Model
 {
     //
-    public function object() {
+    public function object()
+    {
         return $this->belongsTo('App\Object');
     }
-    public function sliders() {
+
+    public function sliders()
+    {
         return $this->hasMany('App\Slider');
     }
-    public function benefits() {
+
+    public function benefits()
+    {
         return $this->hasMany('App\Benefit');
+    }
+
+    public function advantages()
+    {
+        return $this->hasMany('App\Advantage');
     }
 }

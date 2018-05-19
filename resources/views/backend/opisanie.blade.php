@@ -19,21 +19,40 @@
         </div>
 
         <div class="row mb-5 bg-secondary">
-            <div class="col-4 my-3">
-                <div class="card">
-                    <img class="card-img-top" src="/images/Renders/01_Day.jpg" alt="Card image cap">
-                    <div class="card-body justify-content-center text-center">
-                        <form action="" enctype="multipart/form-data">
-                            {{ csrf_field() }}
-                            <input type="file">
-                            <button type="submit" class="btn btn-warning mt-2">Редактировать</button>
-                        </form>
-                    </div>
-                    <div class="card-body text-center">
-                        <a href="" class="btn btn-danger">Удалить</a>
-                    </div>
-                </div>
+
+            <div class="col-12 py-3">
+                <h2 class="text-light text-center">Слайд №1</h2>
             </div>
+
+            @isset ($slider)
+
+                @isset ($benefit)
+
+                    <div class="col-4 my-3">
+                        <div class="card">
+                            <img class="card-img-top" src="/images/Renders/01_Day.jpg" alt="Card image cap">
+                            <div class="card-body justify-content-center text-center">
+                                <form action="/benefit/{{ $benefit->id }}" enctype="multipart/form-data">
+                                    @csrf
+                                    @method('PUT')
+                                    <input type="file" name="image">
+                                    <input type="hidden" name="slider_id" value="{{ $slider->id }}">
+                                    <button type="submit" class="btn btn-warning mt-2">Редактировать</button>
+                                </form>
+                            </div>
+                            <div class="card-body text-center">
+                                <a href="/benefit/{{ $benefit->id }}" class="btn btn-danger" onclick="e.preventDefault(e); document.getElementById('benefit-delete').submit();">Удалить</a>
+                                <form id="benefit-delete" action="/benefit/{{ $benefit->id }}" method="POST" style="display: none;">
+                                    @method('DELETE')
+                                    @csrf
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                @endisset
+
+            @endisset
 
 
             <div class="col-4 my-3">
@@ -119,7 +138,7 @@
 
         <div class="row justify-content-center mx-md-auto bg-info">
             <div class="col-12">
-                <h2 class="text-center text-light">Секция Название</h2>
+                <h2 class="text-center text-light py-3">Секция Название</h2>
             </div>
             <div class="col-12 mb-3 row justify-content-center">
                 <form action="" class="col">
@@ -225,7 +244,7 @@
             <form action="" class="col-4 my-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">
+                        <h5 class="card-title text-success">
                             Создать новый
                         </h5>
                         <h6 class="card-subtitle mb-2 text-muted">
