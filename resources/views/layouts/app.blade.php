@@ -56,6 +56,20 @@
                     </li>
                 </ul>
 
+                @if(Auth::user() && Auth::user()->admin == 1)
+
+                    <ul class="navbar-nav my-3 my-md-0 mx-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link txt-menu" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();" href="{{ route('logout') }}">Выйти</a>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
+                        </li>
+                    </ul>
+
+                @endif
+
                 <ul class="nav flex-column text-center">
                     <li class="nav-item">
                         <a class="nav-link p-1 txt-white" href="#">+996 (557) 174 074</a>

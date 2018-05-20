@@ -39,6 +39,14 @@ Route::get('/back/advantages', 'AdvantageController@back');
 Route::get('/back/stage', 'StageController@back');
 
 Route::group(['middleware' => ['admin']],function() {
+    Route::get('/back/description', 'DescriptionController@back');
+    Route::get('/back/contact', 'ContactController@back');
+    Route::get('/back/gallery', 'GalleryController@back');
+    Route::get('/back/company', 'CompanyController@back');
+    Route::get('/back/plan', 'PlanController@back');
+    Route::get('/back/verona', 'VeronaController@back');
+    Route::get('/back/advantages', 'AdvantageController@back');
+    Route::get('/back/stage', 'StageController@back');
 
 });
 
