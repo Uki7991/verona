@@ -48,5 +48,14 @@ Route::group(['middleware' => ['admin']],function() {
     Route::get('/back/advantages', 'AdvantageController@back');
     Route::get('/back/stage', 'StageController@back');
 
+    Route::resource('benefit', 'BenefitController')->only(
+        'delete', 'store', 'update'
+    );
+    Route::resource('image', 'ImageController')->only(
+        'delete', 'store', 'update'
+    );
+    Route::resource('advantage', 'AdvantageController')->only(
+        'delete', 'store', 'update'
+    );
 });
 
