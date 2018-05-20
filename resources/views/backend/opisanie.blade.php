@@ -348,6 +348,57 @@
             </div>
         </div>
 
+
+        <div class="row">
+
+            <div class="col-4">
+                <form>
+                    <h2>Создать слайд</h2>
+                    <div class="form-group">
+                        <label for="name-section">Название слайда</label>
+                        <input type="text" class="form-control" id="name-section" placeholder="Название слайда">
+                    </div>
+                    <div class="form-group">
+                        <label for="position-section">Позиция слайда</label>
+                        <input type="text" class="form-control" id="position-section" placeholder="Позиция слайда">
+                    </div>
+                    <button type="submit" class="btn btn-success">Создать</button>
+                </form>
+            </div>
+
+            <div class="col-4">
+                <form>
+                    <h2>Создать секцию</h2>
+                    <div class="form-group">
+                        <label for="name-section">Название секции</label>
+                        <input type="text" class="form-control" id="name-section" placeholder="Название секции">
+                    </div>
+                    <div class="form-group">
+                        <label for="position-section">Позиция секции</label>
+                        <input type="text" class="form-control" id="position-section" placeholder="Позиция секции">
+                    </div>
+                    <button type="submit" class="btn btn-success">Создать</button>
+                </form>
+            </div>
+
+            <div class="col-4">
+                <form>
+                    <h2>Создать секцию(мод)</h2>
+                    <div class="form-group">
+                        <label for="name-section">Название секции(мод)</label>
+                        <input type="text" class="form-control" id="name-section" placeholder="Название секции(мод)">
+                    </div>
+                    <div class="form-group">
+                        <label for="position-section">Позиция секции(мод)</label>
+                        <input type="text" class="form-control" id="position-section" placeholder="Позиция секции(мод)">
+                    </div>
+                    <button type="submit" class="btn btn-success">Создать</button>
+                </form>
+            </div>
+
+        </div>
+
+
         <div class="line text-center mb-5 mt-5"><img style="width:30%;" src="/images/2.png" alt=""></div>
 
         <div class="row justify-content-center">
