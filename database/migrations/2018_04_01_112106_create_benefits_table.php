@@ -17,7 +17,6 @@ class CreateBenefitsTable extends Migration
             $table->increments('id');
             $table->text('title');
             $table->tinyInteger('menu_id');
-            $table->string('icon');
             $table->timestamps();
         });
     }

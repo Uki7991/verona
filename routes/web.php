@@ -57,5 +57,8 @@ Route::group(['middleware' => ['admin']],function() {
     Route::resource('advantage', 'AdvantageController')->only(
         'delete', 'store', 'update'
     );
+    Route::resource('text', 'TextController')->only(
+        'delete', 'store', 'update'
+    );
 });
 

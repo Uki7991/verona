@@ -13,7 +13,7 @@ class ImageController extends Controller
         if ($request->hasFile('image')) {
             $file = $request->file('image');
 
-            $imageManager = new \Intervention\Image\Image();
+            $imageManager = new \Intervention\Image\ImageManager();
 
             $imageManager->make($file)
                 ->resize(100, 100, function ($constraint){
@@ -33,7 +33,7 @@ class ImageController extends Controller
         if ($request->hasFile('image')) {
             $file = $request->file('image');
 
-            $imageManager = new \Intervention\Image\Image();
+            $imageManager = new \Intervention\Image\ImageManager();
 
             $imageManager->make($file)
                 ->resize(100, 100, function ($constraint){
