@@ -9,5 +9,4 @@ class Object extends Model
     public function menus() {
         return $this->hasMany('App\Menu');
     }
-
 }

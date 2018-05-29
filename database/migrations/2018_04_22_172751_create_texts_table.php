@@ -17,6 +17,7 @@ class CreateTextsTable extends Migration
             $table->increments('id');
             $table->text('text');
             $table->tinyInteger('benefit_id');
+            $table->string('icon');
             $table->timestamps();
         });
     }

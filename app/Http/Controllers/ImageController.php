@@ -9,17 +9,21 @@ class ImageController extends Controller
 {
     public function store(Request $request)
     {
+        $image = new Image;
         if ($request->hasFile('image')) {
             $file = $request->file('image');
 
-            $imageManager = new \Intervention\Image\Image();
+            $imageManager = new \Intervention\Image\ImageManager();
 
             $imageManager->make($file)
                 ->resize(100, 100, function ($constraint){
                     $constraint->aspectRatio();
                 })
                 ->save(public_path('uploads') . '/' . $file->getClientOriginalName());
+            $image->image = $file->getClientOriginalName();
         }
+        $image->slider_id = $request->slider_id;
+        $image->save();
 
         return redirect()->back();
     }
@@ -29,14 +33,17 @@ class ImageController extends Controller
         if ($request->hasFile('image')) {
             $file = $request->file('image');
 
-            $imageManager = new \Intervention\Image\Image();
+            $imageManager = new \Intervention\Image\ImageManager();
 
             $imageManager->make($file)
                 ->resize(100, 100, function ($constraint){
                     $constraint->aspectRatio();
                 })
                 ->save(public_path('uploads') . '/' . $file->getClientOriginalName());
+            $image->image = $file->getClientOriginalName();
         }
+        $image->slider_id = $request->slider_id;
+        $image->save();
 
         return redirect()->back();
     }

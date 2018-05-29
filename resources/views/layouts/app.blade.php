@@ -24,7 +24,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-sand" style="font-family: forum; text-transform: uppercase;">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img src="/images/Icons/iman-logo3.png" class="img-fluid" width="110" alt="">
+                <img src="/images/Icons/iman-logo3.png" class="img-fluid logo-verona" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-lg text-light fa-bars"></i>
@@ -55,6 +55,20 @@
                         <a class="nav-link txt-menu" href="/contact">Контакты</a>
                     </li>
                 </ul>
+
+                @if(Auth::user() && Auth::user()->admin == 1)
+
+                    <ul class="navbar-nav my-3 my-md-0 mx-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link txt-menu" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();" href="{{ route('logout') }}">Выйти</a>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
+                        </li>
+                    </ul>
+
+                @endif
 
                 <ul class="nav flex-column text-center">
                     <li class="nav-item">
@@ -92,6 +106,12 @@
                 <address>
                     <p class="txt-white">+996 (702) 174 074</p>
                 </address>
+                <address>
+                    <p class="txt-white">+996 (559) 300 810</p>
+                </address>
+                <address>
+                    <p class="txt-white">+996 (558) 595 959</p>
+                </address>
             </div>
 
             <div class="col-12 col-md-auto mb-4 mb-md-0 mt-5 ">
@@ -103,11 +123,11 @@
                 <p class="h2 mb-2 txt-white"><u>Соц. сети:</u></p>
                 <div class="small mb-4 mb-md-2  align-items-center">
                     <i class="fab fa-2x fa-instagram text-light"></i>&nbsp;
-                    <a href="https://www.instagram.com/bayservice" target="_blank" class="text-muted txt-white">https://www.instagram.com/bayservice</a>
+                    <a href="https://www.instagram.com/iman_group.kg" target="_blank" class="text-muted txt-white">https://www.instagram.com/iman_group.kg</a>
                 </div>
                 <div class="small mb-4 mb-md-2 align-items-center">
                     <i class="fab fa-2x fa-facebook text-light"></i>&nbsp;
-                    <a href="https://www.facebook.com/bayservice" target="_blank" class="text-muted txt-white">https://www.facebook.com/bayservice</a>
+                    <a href="https://www.facebook.com/iman_group.kg" target="_blank" class="text-muted txt-white">https://www.facebook.com/iman_group.kg</a>
                 </div>
 
 

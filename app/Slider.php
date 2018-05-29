@@ -12,5 +12,5 @@ class Slider extends Model
     }
     public function menu() {
         return $this->belongsTo('App\Menu');
-}
+    }
 }

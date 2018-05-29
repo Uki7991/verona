@@ -4,6 +4,12 @@
 
     <div class="container mb-5">
 
+        <div class="row my-5 justify-content-center main-verona">
+            <div class="col-12 col-md-8 col-xl-auto">
+                <img src="/images/residence1.png" class="img-fluid" alt="">
+            </div>
+        </div>
+
         <div class="row">
             <div class="text-center mx-auto col-11 col-lg-6">
                 <h2 class="text-verona text-center"><hr>Контакты<hr></h2>

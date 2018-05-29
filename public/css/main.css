@@ -16,6 +16,10 @@
 .owl-next {
     right: -40px;
 }
+
+.logo-verona {
+    width: 200px;
+}
 span, p, h1, h2, h3, h4, h5 {
     color: #66676A!important;
 }
@@ -161,6 +165,9 @@ forum {
         display: block;
         margin-right: 0;
     }
+    .logo-verona {
+        width: 100px;
+    }
     .menu-main a {
         border:1px solid black;
         text-decoration: none;
@@ -238,4 +245,10 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+@media (max-width: 800px) {
+    .logo-verona {
+        width: 150px;
+    }
 }
