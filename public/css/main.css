@@ -18,7 +18,7 @@
 }
 
 .logo-verona {
-    width: 200px;
+    width: 150px;
 }
 span, p, h1, h2, h3, h4, h5 {
     color: #66676A!important;
@@ -249,6 +249,6 @@ body {
 
 @media (max-width: 800px) {
     .logo-verona {
-        width: 150px;
+        width: 1250px;
     }
 }
