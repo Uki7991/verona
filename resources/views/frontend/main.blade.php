@@ -43,21 +43,21 @@
 <body>
 
 <div id="app" class="container-fluid">
-    <div class="row h-100 align-items-center justify-content-center">
-        <div class="col-12 col-xl-4 col-lg-6 col-md-7 col-sm-10 justify-content-center">
+    <div class="row h-100 align-content-center justify-content-center">
+        <div class="col-12 col-xl-5 col-lg-6 col-md-7 col-sm-10 justify-content-center">
             <div class="col-lg-auto col-12 text-center">
                 <img src="/images/Icons/iman-logo3.png" alt="" class="w-50">
             </div>
         </div>
-        <div class="col-12 text-center justify-content-center">
+        <div class="col-12 my-5 text-center justify-content-center">
             <span class="h4" style="font-family: Georgia; font-weight: bold; color:#514239; letter-spacing: 7px;">представляет</span>
         </div>
-        <div class="col-12 col-xl-4 col-lg-6 col-md-7 col-sm-10 my-2 justify-content-center">
+        <div class="col-12 col-xl-5 col-lg-6 col-md-7 col-sm-10 my-2 justify-content-center">
             <div class="col-lg-auto col-12">
                 <img src="/images/residence.png" alt="" class="img-fluid">
             </div>
         </div>
-        <div class="col-12 text-center justify-content-center my-5">
+        <div class="col-12 text-center justify-content-center align-self-end my-5">
             <a href="/description" class="btn btn-verona">Описание дома</a>
         </div>
     </div>
