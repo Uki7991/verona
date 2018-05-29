@@ -36,7 +36,7 @@
                         <a class="btn btn-verona text-verona active" id="pills-profile-tab" data-toggle="pill" href="#pills-2018" role="tab" aria-controls="pills-profile" aria-selected="false">2018 год</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="btn btn-verona text-verona" id="pills-contact-tab" data-toggle="pill" href="#pills-2019" role="tab" aria-controls="pills-contact" aria-selected="false">2019 год</a>
+                        <a class="btn btn-verona text-verona disabled" id="pills-contact-tab" data-toggle="pill" href="#pills-2019" role="tab" aria-controls="pills-contact" aria-selected="false">2019 год</a>
                     </li>
                 </ul>
 
@@ -151,13 +151,19 @@
                     <div class="tab-pane fade show active" id="pills-2018" role="tabpanel" aria-labelledby="pills-profile-tab">
                         <ul class="row justify-content-center nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item mx-2">
-                                <a class="btn btn-verona text-verona active" id="pills-jan-tab" data-toggle="pill" href="#pills-2018-jan" role="tab" aria-controls="pills-sep" aria-selected="true">Январь</a>
+                                <a class="btn btn-verona text-verona" id="pills-jan-tab" data-toggle="pill" href="#pills-2018-jan" role="tab" aria-controls="pills-sep" aria-selected="true">Январь</a>
                             </li>
                             <li class="nav-item mx-2">
                                 <a class="btn btn-verona text-verona" id="pills-feb-tab" data-toggle="pill" href="#pills-2018-feb" role="tab" aria-controls="pills-okt" aria-selected="false">Февраль</a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="btn btn-verona text-verona" id="pills-mar-tab" data-toggle="pill" href="#pills-2018-mar" role="tab" aria-controls="pills-nov" aria-selected="false">Март </a>
+                                <a class="btn btn-verona text-verona" id="pills-mar-tab" data-toggle="pill" href="#pills-2018-mar" role="tab" aria-controls="pills-nov" aria-selected="false">Март</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="btn btn-verona text-verona" id="pills-apr-tab" data-toggle="pill" href="#pills-2018-apr" role="tab" aria-controls="pills-nov" aria-selected="false">Апрель</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="btn btn-verona text-verona active" id="pills-may-tab" data-toggle="pill" href="#pills-2018-may" role="tab" aria-controls="pills-nov" aria-selected="false">Май</a>
                             </li>
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
@@ -207,9 +213,39 @@
                                     <div class="col-md col-6 mb-2">
                                         <a href="/images/Renders/123.png" rel="group1" class="grouped_elements"><img src="/images/Renders/123.png" class="img-fluid" alt=""></a>
                                     </div>
-
                                 </div>
-
+                            </div>
+                            <div class="tab-pane fade" id="pills-2018-apr" role="tabpanel" aria-labelledby="pills-apr-tab">
+                                <div class="row">
+                                    <div class="col-md col-6 mb-2">
+                                        <a href="/images/Renders/1.png" rel="group1" class="grouped_elements"><img src="/images/Renders/1.png" class="img-fluid" alt=""></a>
+                                    </div>
+                                    <div class="col-md col-6 mb-2">
+                                        <a href="/images/Renders/2.png" rel="group1" class="grouped_elements"><img src="/images/Renders/2.png" class="img-fluid" alt=""></a>
+                                    </div>
+                                    <div class="col-md col-6 mb-2">
+                                        <a href="/images/Renders/08_E.png" rel="group1" class="grouped_elements"><img src="/images/Renders/08_E.png" class="img-fluid" alt=""></a>
+                                    </div>
+                                    <div class="col-md col-6 mb-2">
+                                        <a href="/images/Renders/123.png" rel="group1" class="grouped_elements"><img src="/images/Renders/123.png" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-2018-may" role="tabpanel" aria-labelledby="pills-may-tab">
+                                <div class="row">
+                                    <div class="col-md col-6 mb-2">
+                                        <a href="/images/Renders/1.png" rel="group1" class="grouped_elements"><img src="/images/Renders/1.png" class="img-fluid" alt=""></a>
+                                    </div>
+                                    <div class="col-md col-6 mb-2">
+                                        <a href="/images/Renders/2.png" rel="group1" class="grouped_elements"><img src="/images/Renders/2.png" class="img-fluid" alt=""></a>
+                                    </div>
+                                    <div class="col-md col-6 mb-2">
+                                        <a href="/images/Renders/08_E.png" rel="group1" class="grouped_elements"><img src="/images/Renders/08_E.png" class="img-fluid" alt=""></a>
+                                    </div>
+                                    <div class="col-md col-6 mb-2">
+                                        <a href="/images/Renders/123.png" rel="group1" class="grouped_elements"><img src="/images/Renders/123.png" class="img-fluid" alt=""></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
