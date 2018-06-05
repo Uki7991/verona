@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Benefit;
+use App\Menu;
 use App\Slider;
 use Illuminate\Http\Request;
 
@@ -11,23 +12,23 @@ class DescriptionController extends Controller
     //
     public function index()
     {
-        return view('frontend.opisanie');
+        $menu = Menu::find(1);
+        $items = collect()->merge($menu->sliders)->merge($menu->benefits);
+        $items = $items->sortBy('position');
+
+        return view('frontend.opisanie', [
+            'items' => $items,
+        ]);
     }
 
     public function back()
     {
-        $slider1 = Slider::find(1);
-        $slider2 = Slider::find(2);
-        $benefit1 = Benefit::find(1);
-        $benefit2 = Benefit::find(2);
-        $benefit3 = Benefit::find(3);
+        $menu = Menu::find(1);
+        $items = collect()->merge($menu->sliders)->merge($menu->benefits);
+        $items = $items->sortBy('position');
 
         return view('backend.opisanie', [
-            'slider1' => $slider1,
-            'slider2' => $slider2,
-            'benefit1' => $benefit1,
-            'benefit2' => $benefit2,
-            'benefit3' => $benefit3,
+            'items' => $items,
         ]);
     }
 }

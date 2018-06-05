@@ -18,6 +18,77 @@
             @include('layouts.navigator')
         </div>
 
+        @isset($items)
+
+            @foreach($items as $item)
+
+                @if($item instanceof App\Slider)
+
+                    <div class="row mb-5 justify-content-center">
+                        <div class="owl-carousel owl-theme col-10" style=" padding:12px; background-image:url(images/stipes2.png); background-size: 100px 100px;" >
+
+                            <div class="item">
+                                <img src="/images/Renders/01_Day.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="/images/Renders/01_Evening.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="/images/Renders/02_Day.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="/images/Renders/02_Evening.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="/images/Renders/03_Day.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="/images/Renders/03_Evening.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="/images/Renders/06_Day.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="/images/Renders/06_Evening.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                @endif
+
+                @if($item instanceof App\Benefit)
+
+                    <div class="row col-12 col-md-10 justify-content-center mb-5 mx-md-auto">
+                        <div class="col-12 mb-3 ml-5" ><p style="font-family: Forum; font-size: 32px; text-transform: uppercase;">Отличное расположение</p><hr></div>
+
+                        <div class="col-md-1 col-1" style=" margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
+                        </div>
+                        <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой  </span>
+                        </div>
+                        <div class="col-md-1 col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
+                        </div>
+                        <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Хороший район с безупреной инфраструктурой  </span>
+                        </div>
+                        <div class="col-md-1 col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
+                        </div>
+                        <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Близкое расположение школ, гимназий и лицеи  </span>
+                        </div>
+                        <div class="col-md-1 col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
+                        </div>
+                        <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Рядом расположен большой оптомаркет Бишкек, множества кафе и Ресторан Золотой дракон </span>
+                        </div>
+                        <div class="col-md-1 col-1" style="margin-bottom:20px;"><img class="ml-md-3" src="/images/Icons/marker.png" style="margin-right:10px;" alt="">
+                        </div>
+                        <div class="col-md-11 col-10 mb-3"><span class="indent" style="font-family: forum; text-transform: uppercase;">Удобная транпортная развязка обеспечивает бесприпятственный доступ ко всем частям города Бишкек</span>
+                        </div>
+                    </div>
+
+                @endif
+
+            @endforeach
+
+        @endisset
+
 
         @isset($slider1)
         <div class="row mb-5 justify-content-center">

@@ -16,6 +16,7 @@ class CreateBenefitsTable extends Migration
         Schema::create('benefits', function (Blueprint $table) {
             $table->increments('id');
             $table->text('title');
+            $table->tinyInteger('position')->default(0);
             $table->tinyInteger('menu_id');
             $table->timestamps();
         });

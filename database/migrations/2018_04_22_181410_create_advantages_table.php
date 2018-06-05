@@ -19,6 +19,7 @@ class CreateAdvantagesTable extends Migration
             $table->string('image')->nullable();
             $table->string('icon_image')->nullable();
             $table->string('description')->nullable();
+            $table->tinyInteger('position')->default(0);
             $table->timestamps();
         });
     }
