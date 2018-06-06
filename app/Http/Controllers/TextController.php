@@ -9,22 +9,22 @@ class TextController extends Controller
 {
     public function store(Request $request)
     {
-        $text = new Text();
+        $text = new Text($request->all());
 
-        $text->text = $request->text;
-        $text->benefit_id = $request->benefit_id;
         if ($request->hasFile('icon')) {
             $file = $request->file('icon');
 
             $imageManager = new \Intervention\Image\ImageManager();
 
+            $fileName = uniqid('icon_').md5(uniqid().$file->getClientOriginalName()).'.'.$file->getClientOriginalExtension();
+
             $imageManager->make($file)
                 ->resize(100, 100, function ($constraint){
                     $constraint->aspectRatio();
                 })
-                ->save(public_path('uploads/icons') . '/' . $file->getClientOriginalName());
+                ->save(public_path('uploads/icons') . '/' . $fileName);
 
-            $text->icon = $file->getClientOriginalName();
+            $text->icon = $fileName;
         }
         $text->save();
 
@@ -33,20 +33,21 @@ class TextController extends Controller
 
     public function update(Request $request, Text $text)
     {
-        $text->text = $request->text;
-        $text->benefit_id = $request->benefit_id;
+        $text->update($request->all());
         if ($request->hasFile('icon')) {
             $file = $request->file('icon');
 
             $imageManager = new \Intervention\Image\ImageManager();
 
+            $fileName = uniqid('icon_').md5(uniqid().$file->getClientOriginalName()).'.'.$file->getClientOriginalExtension();
+
             $imageManager->make($file)
                 ->resize(100, 100, function ($constraint){
                     $constraint->aspectRatio();
                 })
-                ->save(public_path('uploads/icons') . '/' . $file->getClientOriginalName());
+                ->save(public_path('uploads/icons') . '/' . $fileName);
 
-            $text->icon = $file->getClientOriginalName();
+            $text->icon = $fileName;
         }
         $text->save();
 

@@ -167,92 +167,34 @@
 
                         <div class="row justify-content-center mb-5 mx-md-auto bg-white">
 
-                            <form action="" class="col-4 my-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            <img src="/images/Icons/marker.png" class="ml-md-3" alt="">
-                                        </h5>
-                                        <h6 class="card-subtitle mb-2 text-muted">
-                                            <input type="file" name="img">
-                                        </h6>
-                                        <p class="card-text">
-                                            <textarea name="" id="" class="col-12" rows="5">Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой</textarea>
-                                        </p>
-                                        <a href="#" class="card-link text-warning">Редактировать</a>
-                                        <a href="#" class="card-link text-danger">Удалить</a>
-                                    </div>
-                                </div>
-                            </form>
+                            @foreach($item->texts as $text)
 
-                            <form action="" class="col-4 my-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            <img src="/images/Icons/marker.png" class="ml-md-3" alt="">
-                                        </h5>
-                                        <h6 class="card-subtitle mb-2 text-muted">
-                                            <input type="file" name="img">
-                                        </h6>
-                                        <p class="card-text">
-                                            <textarea name="" id="" class="col-12" rows="5">Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой</textarea>
-                                        </p>
-                                        <a href="#" class="card-link text-warning">Редактировать</a>
-                                        <a href="#" class="card-link text-danger">Удалить</a>
+                                <form id="benefit-{{ $text->id }}" action="/text/{{ $text->id }}" enctype="multipart/form-data" method="post" class="col-4 my-4">
+                                    @csrf
+                                    @method('PUT')
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <img src="/uploads/icons/{{ $text->icon }}" class="ml-md-3 img-fluid" alt="" width="30" height="30">
+                                            </h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">
+                                                <input type="file" name="icon">
+                                            </h6>
+                                            <p class="card-text">
+                                                <textarea name="text" id="" class="col-12" rows="5">{{ $text->text }}</textarea>
+                                            </p>
+                                            <input type="hidden" value="{{ $item->id }}" name="benefit_id">
+                                            <a href="#" onclick="event.preventDefault(); document.getElementById('benefit-{{ $text->id }}').submit();" class="card-link text-warning">Редактировать</a>
+                                            <a href="#" onclick="event.preventDefault(); document.getElementById('benefit-delete-{{ $text->id }}').submit();" class="card-link text-danger">Удалить</a>
+                                        </div>
                                     </div>
-                                </div>
-                            </form>
-                            <form action="" class="col-4 my-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            <img src="/images/Icons/marker.png" class="ml-md-3" alt="">
-                                        </h5>
-                                        <h6 class="card-subtitle mb-2 text-muted">
-                                            <input type="file" name="img">
-                                        </h6>
-                                        <p class="card-text">
-                                            <textarea name="" id="" class="col-12" rows="5">Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой</textarea>
-                                        </p>
-                                        <a href="#" class="card-link text-warning">Редактировать</a>
-                                        <a href="#" class="card-link text-danger">Удалить</a>
-                                    </div>
-                                </div>
-                            </form>
-                            <form action="" class="col-4 my-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            <img src="/images/Icons/marker.png" class="ml-md-3" alt="">
-                                        </h5>
-                                        <h6 class="card-subtitle mb-2 text-muted">
-                                            <input type="file" name="img">
-                                        </h6>
-                                        <p class="card-text">
-                                            <textarea name="" id="" class="col-12" rows="5">Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой</textarea>
-                                        </p>
-                                        <a href="#" class="card-link text-warning">Редактировать</a>
-                                        <a href="#" class="card-link text-danger">Удалить</a>
-                                    </div>
-                                </div>
-                            </form>
-                            <form action="" class="col-4 my-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            <img src="/images/Icons/marker.png" class="ml-md-3" alt="">
-                                        </h5>
-                                        <h6 class="card-subtitle mb-2 text-muted">
-                                            <input type="file" name="img">
-                                        </h6>
-                                        <p class="card-text">
-                                            <textarea name="" id="" class="col-12" rows="5">Удобное расположение комплекса позволит вам без труда добраться до работы и обратно домой</textarea>
-                                        </p>
-                                        <a href="#" class="card-link text-warning">Редактировать</a>
-                                        <a href="#" class="card-link text-danger">Удалить</a>
-                                    </div>
-                                </div>
-                            </form>
+                                </form>
+                                <form action="/text/{{ $text->id }}" id="benefit-delete-{{ $text->id }}" class="d-none">
+                                    @csrf
+                                    @method('DELETE')
+                                </form>
+
+                            @endforeach
 
                             <form action="/text" method="POST" class="col-4 my-4" enctype="multipart/form-data">
                                 @csrf
@@ -267,7 +209,7 @@
                                         <p class="card-text">
                                             <textarea name="text" id="" class="col-12" rows="5"></textarea>
                                         </p>
-                                        <input type="hidden" value="1" name="benefit_id">
+                                        <input type="hidden" value="{{ $item->id }}" name="benefit_id">
                                         <button type="submit" class="btn btn-success">Создать</button>
                                     </div>
                                 </div>
