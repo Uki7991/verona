@@ -14,10 +14,7 @@ class BenefitController extends Controller
     }
 
     public function store(Request $request) {
-        $benefit = new Benefit;
-
-        $benefit->title = $request->title;
-        $benefit->menu_id = $request->menu_id;
+        $benefit = new Benefit($request->all());
         $benefit->save();
 
         return redirect()->back();

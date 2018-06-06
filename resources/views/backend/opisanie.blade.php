@@ -647,7 +647,7 @@
                     <input type="hidden" value="1" name="menu_id">
                     <div class="form-group">
                         <label for="position-section">Позиция секции</label>
-                        <input type="text" class="form-control" name="position_section" id="position-section" placeholder="Позиция секции">
+                        <input type="text" class="form-control" name="position" id="position-section" placeholder="Позиция секции">
                     </div>
                     <button type="submit" class="btn btn-success">Создать</button>
                 </form>
