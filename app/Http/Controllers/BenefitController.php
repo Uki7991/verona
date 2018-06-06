@@ -21,9 +21,7 @@ class BenefitController extends Controller
     }
 
     public function update(Request $request, Benefit $benefit) {
-        $benefit->title = $request->title;
-        $benefit->menu_id = $request->menu_id;
-        $benefit->save();
+        $benefit->update($request->all());
 
         return redirect()->back();
     }

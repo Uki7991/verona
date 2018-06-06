@@ -146,14 +146,15 @@
 
                         <div class="row justify-content-center mx-md-auto bg-info">
                             <div class="col-12">
-                                <h2 class="text-center text-light py-3">Секция Название</h2>
+                                <h2 class="text-center text-light py-3">{{ $item->title }}</h2>
                             </div>
                             <div class="col-12 mb-3 row justify-content-center">
-                                <form action="/benefit/{{ isset($benefit) ? $benefit->id : '' }}" method="POST" class="col">
+                                <form action="/benefit/{{ $item->id }}" method="POST" class="col">
                                     @csrf
                                     @method('PUT')
-                                    <input type="text" value="Отличное расположение" class="col-7">
-                                    <input type="text" value="0" name="position">
+                                    <input type="text" value="{{ $item->title }}" name="title" class="col-7">
+                                    <input type="hidden" value="1" name="menu_id">
+                                    <input type="text" value="{{ $item->position }}" name="position">
                                     <button class="btn btn-warning" type="submit">Редактировать</button>
                                 </form>
                                 <form action="" method="post" class="col-auto">
