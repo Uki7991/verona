@@ -27,6 +27,7 @@ class BenefitController extends Controller
     }
 
     public function destroy(Benefit $benefit) {
+        $benefit->texts()->delete();
         $benefit->delete();
 
         return redirect()->back();

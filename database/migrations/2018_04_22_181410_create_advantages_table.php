@@ -13,7 +13,7 @@ class CreateAdvantagesTable extends Migration
      */
     public function up()
     {
-        Schema::create('objects', function (Blueprint $table) {
+        Schema::create('advantages', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
             $table->string('image')->nullable();

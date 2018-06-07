@@ -13,32 +13,20 @@ class AdvantageController extends Controller
         return view('frontend.advantage');
     }
 
-    public function store(Request $request)
-    {
-        $advantage = new Advantage();
-
-        $advantage->name = $request->name;
-        $advantage->image = $request->image;
-        $advantage->icon_image = $request->icon_image;
-        $advantage->description = $request->description;
-        $advantage->save();
+    public function store(Request $request) {
+        $benefit = new Advantage($request->all());
+        $benefit->save();
 
         return redirect()->back();
     }
 
-    public function update(Request $request, Advantage $advantage)
-    {
-        $advantage->name = $request->name;
-        $advantage->image = $request->image;
-        $advantage->icon_image = $request->icon_image;
-        $advantage->description = $request->description;
-        $advantage->save();
+    public function update(Request $request, Advantage $advantage) {
+        $advantage->update($request->all());
 
         return redirect()->back();
     }
 
-    public function destroy(Advantage $advantage)
-    {
+    public function destroy(Advantage $advantage) {
         $advantage->delete();
 
         return redirect()->back();

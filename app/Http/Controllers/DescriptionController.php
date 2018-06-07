@@ -24,11 +24,13 @@ class DescriptionController extends Controller
     public function back()
     {
         $menu = Menu::find(1);
+
         $items = collect()->merge($menu->sliders)->merge($menu->benefits);
         $items = $items->sortBy('position');
 
         return view('backend.opisanie', [
             'items' => $items,
+            'menu' => $menu,
         ]);
     }
 }

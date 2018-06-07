@@ -21,6 +21,7 @@ class SliderController extends Controller
     }
 
     public function destroy(Slider $slider) {
+        $slider->images()->delete();
         $slider->delete();
 
         return redirect()->back();
