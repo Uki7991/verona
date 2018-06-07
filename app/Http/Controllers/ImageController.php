@@ -15,12 +15,16 @@ class ImageController extends Controller
 
             $imageManager = new \Intervention\Image\ImageManager();
 
+            $fileName = uniqid('image_').md5(uniqid().$file->getClientOriginalName()).'.'.$file->getClientOriginalExtension();
+
             $imageManager->make($file)
-                ->resize(100, 100, function ($constraint){
+                ->save(public_path('uploads/slides/large') . '/' . $fileName)
+                ->resize(300, 300, function ($constraint){
                     $constraint->aspectRatio();
                 })
-                ->save(public_path('uploads') . '/' . $file->getClientOriginalName());
-            $image->image = $file->getClientOriginalName();
+                ->save(public_path('uploads/slides/small') . '/' . $fileName);
+
+            $image->image = $fileName;
         }
         $image->slider_id = $request->slider_id;
         $image->save();
@@ -35,12 +39,16 @@ class ImageController extends Controller
 
             $imageManager = new \Intervention\Image\ImageManager();
 
+            $fileName = uniqid('image_').md5(uniqid().$file->getClientOriginalName()).'.'.$file->getClientOriginalExtension();
+
             $imageManager->make($file)
-                ->resize(100, 100, function ($constraint){
+                ->save(public_path('uploads/slides/large') . '/' . $fileName)
+                ->resize(300, 300, function ($constraint){
                     $constraint->aspectRatio();
                 })
-                ->save(public_path('uploads') . '/' . $file->getClientOriginalName());
-            $image->image = $file->getClientOriginalName();
+                ->save(public_path('uploads/slides/small') . '/' . $fileName);
+
+            $image->image = $fileName;
         }
         $image->slider_id = $request->slider_id;
         $image->save();

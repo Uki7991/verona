@@ -60,5 +60,8 @@ Route::group(['middleware' => ['admin']],function() {
     Route::resource('text', 'TextController')->only(
         'destroy', 'store', 'update'
     );
+    Route::resource('slider', 'SliderController')->only(
+        'destroy', 'store', 'update'
+    );
 });
 

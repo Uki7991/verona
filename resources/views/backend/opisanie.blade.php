@@ -30,14 +30,29 @@
                         <div class="col-12 py-3">
                             <h2 class="text-light text-center">{{ $item->name }}</h2>
                         </div>
+                        <div class="col-12 row justify-content-center">
+                            <form action="/slider/{{ $item->id }}" method="POST" class="col">
+                                @csrf
+                                @method('PUT')
+                                <input type="text" value="{{ $item->name }}" name="name" class="col-7">
+                                <input type="hidden" value="1" name="menu_id">
+                                <input type="text" value="{{ $item->position }}" name="position">
+                                <button class="btn btn-warning" type="submit">Редактировать</button>
+                            </form>
+                            <form action="/slider/{{ $item->id }}" method="post" class="col-auto">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-danger">Удалить</button>
+                            </form>
+                        </div>
 
                         @foreach($item->images as $image)
 
                             <div class="col-4 my-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="/images/Renders/01_Day.jpg" alt="Card image cap">
+                                    <img class="card-img-top" src="/uploads/slides/small/{{ $image->image }}" alt="Card image cap">
                                     <div class="card-body justify-content-center text-center">
-                                        <form action="/benefit/{{ $image->id }}" enctype="multipart/form-data">
+                                        <form action="/image/{{ $image->id }}" method="post" enctype="multipart/form-data">
                                             @csrf
                                             @method('PUT')
                                             <input type="file" name="image">
@@ -46,8 +61,8 @@
                                         </form>
                                     </div>
                                     <div class="card-body text-center">
-                                        <a href="/benefit/{{ $$image->id }}" class="btn btn-danger" onclick="e.preventDefault(e); document.getElementById('benefit-delete').submit();">Удалить</a>
-                                        <form id="benefit-delete" action="/benefit/{{ $image->id }}" method="POST" style="display: none;">
+                                        <a href="/image/{{ $image->id }}" class="btn btn-danger" onclick="e.preventDefault(e); document.getElementById('image-delete-{{ $image->id }}').submit();">Удалить</a>
+                                        <form id="image-delete-{{ $image->id }}" action="/image/{{ $image->id }}" method="POST" style="display: none;">
                                             @method('DELETE')
                                             @csrf
                                         </form>
@@ -60,79 +75,12 @@
 
                         <div class="col-4 my-3">
                             <div class="card">
-                                <img class="card-img-top" src="/images/Renders/01_Day.jpg" alt="Card image cap">
-                                <div class="card-body justify-content-center text-center">
-                                    <form action="" enctype="multipart/form-data">
-                                        {{ csrf_field() }}
-                                        <input type="file">
-                                        <button type="submit" class="btn btn-warning mt-2">Редактировать</button>
-                                    </form>
-                                </div>
-                                <div class="card-body text-center">
-                                    <a href="" class="btn btn-danger">Удалить</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-4 my-3">
-                            <div class="card">
-                                <img class="card-img-top" src="/images/Renders/01_Day.jpg" alt="Card image cap">
-                                <div class="card-body justify-content-center text-center">
-                                    <form action="" enctype="multipart/form-data">
-                                        {{ csrf_field() }}
-                                        <input type="file">
-                                        <button type="submit" class="btn btn-warning mt-2">Редактировать</button>
-                                    </form>
-                                </div>
-                                <div class="card-body text-center">
-                                    <a href="" class="btn btn-danger">Удалить</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-4 my-3">
-                            <div class="card">
-                                <img class="card-img-top" src="/images/Renders/01_Day.jpg" alt="Card image cap">
-                                <div class="card-body justify-content-center text-center">
-                                    <form action="" enctype="multipart/form-data">
-                                        {{ csrf_field() }}
-                                        <input type="file">
-                                        <button type="submit" class="btn btn-warning mt-2">Редактировать</button>
-                                    </form>
-                                </div>
-                                <div class="card-body text-center">
-                                    <a href="" class="btn btn-danger">Удалить</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-4 my-3">
-                            <div class="card">
-                                <img class="card-img-top" src="/images/Renders/01_Day.jpg" alt="Card image cap">
-                                <div class="card-body justify-content-center text-center">
-                                    <form action="" enctype="multipart/form-data">
-                                        {{ csrf_field() }}
-                                        <input type="file">
-                                        <button type="submit" class="btn btn-warning mt-2">Редактировать</button>
-                                    </form>
-                                </div>
-                                <div class="card-body text-center">
-                                    <a href="" class="btn btn-danger">Удалить</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-4 my-3">
-                            <div class="card">
                                 <div class="card-body justify-content-center text-center">
                                     <h5 class="card-title text-success">Новая картинка</h5>
                                     <form action="/image" class="mt-5" method="POST" enctype="multipart/form-data">
                                         @csrf
                                         <input type="file" name="image">
-                                        <input type="hidden" value="1" name="slider_id">
+                                        <input type="hidden" value="{{ $item->id }}" name="slider_id">
                                         <button type="submit" class="btn btn-success mt-3">Еще картинка</button>
                                     </form>
                                 </div>
@@ -157,7 +105,7 @@
                                     <input type="text" value="{{ $item->position }}" name="position">
                                     <button class="btn btn-warning" type="submit">Редактировать</button>
                                 </form>
-                                <form action="" method="post" class="col-auto">
+                                <form action="/benefit/{{ $item->id }}" method="post" class="col-auto">
                                     @csrf
                                     @method('DELETE')
                                     <button type="submit" class="btn btn-danger">Удалить</button>
