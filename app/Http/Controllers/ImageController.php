@@ -48,7 +48,7 @@ class ImageController extends Controller
         return redirect()->back();
     }
 
-    public function delete(Image $image)
+    public function destroy(Image $image)
     {
         $image->delete();
 

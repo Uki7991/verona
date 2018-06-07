@@ -189,7 +189,7 @@
                                         </div>
                                     </div>
                                 </form>
-                                <form action="/text/{{ $text->id }}" id="benefit-delete-{{ $text->id }}" class="d-none">
+                                <form action="/text/{{ $text->id }}" method="post" id="benefit-delete-{{ $text->id }}" class="d-none">
                                     @csrf
                                     @method('DELETE')
                                 </form>

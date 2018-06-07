@@ -49,16 +49,16 @@ Route::group(['middleware' => ['admin']],function() {
     Route::get('/back/stage', 'StageController@back');
 
     Route::resource('benefit', 'BenefitController')->only(
-        'delete', 'store', 'update'
+        'destroy', 'store', 'update'
     );
     Route::resource('image', 'ImageController')->only(
-        'delete', 'store', 'update'
+        'destroy', 'store', 'update'
     );
     Route::resource('advantage', 'AdvantageController')->only(
-        'delete', 'store', 'update'
+        'destroy', 'store', 'update'
     );
     Route::resource('text', 'TextController')->only(
-        'delete', 'store', 'update'
+        'destroy', 'store', 'update'
     );
 });
 

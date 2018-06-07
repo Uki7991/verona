@@ -37,7 +37,7 @@ class AdvantageController extends Controller
         return redirect()->back();
     }
 
-    public function delete(Advantage $advantage)
+    public function destroy(Advantage $advantage)
     {
         $advantage->delete();
 

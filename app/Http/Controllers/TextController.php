@@ -54,7 +54,7 @@ class TextController extends Controller
         return redirect()->back();
     }
 
-    public function delete(Text $text)
+    public function destroy(Text $text)
     {
         $text->delete();
 
