@@ -66,7 +66,9 @@
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <a class="dropdown-item" href="/back/description">Описание</a>
                             <a class="dropdown-item" href="/back/gallery">Галерея</a>
-                            <a class="dropdown-item" href="/back/benefits">Особенности</a>
+                            <a class="dropdown-item" href="/back/advantages">Особенности</a>
+                            <a class="dropdown-item" href="/back/plan">Планировки</a>
+                            <a class="dropdown-item" href="/back/stage">Этапы строительства</a>
 
                             <div class="dropdown-divider"></div>
 

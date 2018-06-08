@@ -13,7 +13,7 @@ class DescriptionController extends Controller
     public function index()
     {
         $menu = Menu::find(1);
-        $items = collect()->merge($menu->sliders)->merge($menu->benefits);
+        $items = collect()->merge($menu->sliders)->merge($menu->benefits)->merge($menu->advantages);
         $items = $items->sortBy('position');
 
         return view('frontend.opisanie', [
@@ -25,7 +25,7 @@ class DescriptionController extends Controller
     {
         $menu = Menu::find(1);
 
-        $items = collect()->merge($menu->sliders)->merge($menu->benefits);
+        $items = collect()->merge($menu->sliders)->merge($menu->benefits)->merge($menu->advantages);
         $items = $items->sortBy('position');
 
         return view('backend.opisanie', [

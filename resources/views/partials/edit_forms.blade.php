@@ -69,6 +69,40 @@
 
         @endif
 
+        @if($item instanceof App\Advantage)
+
+            <form action="/advantage/{{ $item->id }}" method="post" enctype="multipart/form-data">
+                @csrf
+                @method('PUT')
+                <h2 class="text-center h2 m-md-5 w-100" style="font-family: Forum;"><hr><input type="text" name="name" class="w-100" value="{{ $item->name }}"><hr></h2>
+                <div class="row">
+                    <div class="col-md-8 col-12">
+                        <img src="/uploads/images/large/{{ $item->image }}" class="w-100" style=" padding:12px; background-image:url(/images/stipes2.png); background-size: 100px 100px;" alt="">
+                        <input type="file" class="mt-3" name="image">
+                    </div>
+                    <div class="col-md-3 col-12 ml-md-5 text-center" style="text-transform: uppercase; top:7%;">
+                        <hr>
+                        <div class="card-header mt-md-4">
+                            <img width="50" height="50" src="/uploads/icons/{{ $item->icon_image }}" class="img-fluid" alt="">
+                            <input class="mt-3" type="file" name="icon_image">
+                        </div>
+                        <div class="card-body">
+                            <hr>
+                            <textarea name="description" id="" cols="30" rows="10">{{ $item->description }}</textarea>
+                        </div>
+                        <hr>
+                        <button type="submit" class="btn btn-warning">Редактировать</button>
+                        <a class="btn btn-danger" href="/advantage/{{ $item->id }}" onclick="event.preventDefault(); document.getElementById('advantage-delete-{{ $item->id }}').submit();">Удалить</a>
+                    </div>
+                </div>
+            </form>
+            <form action="/advantage/{{ $item->id }}" id="advantage-delete-{{ $item->id }}" class="d-none" method="post">
+                @csrf
+                @method('DELETE')
+            </form>
+
+        @endif
+
         @if($item instanceof App\Benefit)
 
             <div class="row justify-content-center mx-md-auto bg-info">

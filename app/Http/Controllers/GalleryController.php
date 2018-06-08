@@ -11,7 +11,7 @@ class GalleryController extends Controller
     public function index()
     {
         $menu = Menu::find(2);
-        $items = collect()->merge($menu->sliders)->merge($menu->benefits);
+        $items = collect()->merge($menu->sliders)->merge($menu->benefits)->merge($menu->advantages);
         $items = $items->sortBy('position');
 
         return view('frontend.gallery', [
@@ -22,7 +22,7 @@ class GalleryController extends Controller
     public function back()
     {
         $menu = Menu::find(2);
-        $items = collect()->merge($menu->sliders)->merge($menu->benefits);
+        $items = collect()->merge($menu->sliders)->merge($menu->benefits)->merge($menu->advantages);
         $items = $items->sortBy('position');
 
         return view('backend.gallery', [

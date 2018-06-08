@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Advantage;
+use App\Menu;
 use Illuminate\Http\Request;
 
 class AdvantageController extends Controller
@@ -10,23 +11,68 @@ class AdvantageController extends Controller
     //
     public function index()
     {
-        return view('frontend.advantage');
+        $menu = Menu::find(1);
+        $items = collect()->merge($menu->sliders)->merge($menu->benefits)->merge($menu->advantages);
+        $items = $items->sortBy('position');
+
+        return view('frontend.advantage', [
+            'items' => $items,
+        ]);
     }
 
-    public function store(Request $request) {
-        $benefit = new Advantage($request->all());
-        $benefit->save();
+    public function store(Request $request)
+    {
+        $advantage = new Advantage($request->all());
+
+        $advantage->save();
 
         return redirect()->back();
     }
 
-    public function update(Request $request, Advantage $advantage) {
+    public function update(Request $request, Advantage $advantage)
+    {
         $advantage->update($request->all());
+        if ($request->hasFile('icon_image')) {
+            $file = $request->file('icon_image');
+
+            $imageManager = new \Intervention\Image\ImageManager();
+
+            $fileName = uniqid('icon_image_').md5(uniqid().$file->getClientOriginalName()).'.'.$file->getClientOriginalExtension();
+
+            $imageManager->make($file)
+                ->resize(100, 100, function ($constraint){
+                    $constraint->aspectRatio();
+                })
+                ->save(public_path('uploads/icons') . '/' . $fileName);
+
+            $advantage->icon_image = $fileName;
+        }
+        if ($request->hasFile('image')) {
+            $file = $request->file('image');
+
+            $imageManager = new \Intervention\Image\ImageManager();
+
+            $fileName = uniqid('advantage_image_').md5(uniqid().$file->getClientOriginalName()).'.'.$file->getClientOriginalExtension();
+
+            $imageManager->make($file)
+                ->resize(1300, 1300, function ($constraint){
+                    $constraint->aspectRatio();
+                })
+                ->save(public_path('uploads/images/large') . '/' . $fileName)
+                ->resize(300, 300, function ($constraint) {
+                    $constraint->aspectRatio();
+                })
+                ->save(public_path('uploads/images/small') . '/' . $fileName);
+
+            $advantage->image = $fileName;
+        }
+        $advantage->save();
 
         return redirect()->back();
     }
 
-    public function destroy(Advantage $advantage) {
+    public function destroy(Advantage $advantage)
+    {
         $advantage->delete();
 
         return redirect()->back();
@@ -34,6 +80,13 @@ class AdvantageController extends Controller
 
     public function back()
     {
-        return view('backend.advantage');
+        $menu = Menu::find(1);
+        $items = collect()->merge($menu->sliders)->merge($menu->benefits)->merge($menu->advantages);
+        $items = $items->sortBy('position');
+
+        return view('backend.advantage', [
+            'items' => $items,
+            'menu' => $menu,
+        ]);
     }
 }

@@ -8,7 +8,7 @@ class Advantage extends Model
 {
     protected $guarded = [];
 
-    public function menus()
+    public function menu()
     {
         return $this->belongsTo('App\Menu');
     }
