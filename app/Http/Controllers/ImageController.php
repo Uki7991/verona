@@ -18,6 +18,9 @@ class ImageController extends Controller
             $fileName = uniqid('image_').md5(uniqid().$file->getClientOriginalName()).'.'.$file->getClientOriginalExtension();
 
             $imageManager->make($file)
+                ->resize(1300, 1300, function ($constraint) {
+                    $constraint->aspectRatio();
+                })
                 ->save(public_path('uploads/slides/large') . '/' . $fileName)
                 ->resize(300, 300, function ($constraint){
                     $constraint->aspectRatio();
@@ -42,6 +45,9 @@ class ImageController extends Controller
             $fileName = uniqid('image_').md5(uniqid().$file->getClientOriginalName()).'.'.$file->getClientOriginalExtension();
 
             $imageManager->make($file)
+                ->resize(1300, 1300, function ($constraint) {
+                    $constraint->aspectRatio();
+                })
                 ->save(public_path('uploads/slides/large') . '/' . $fileName)
                 ->resize(300, 300, function ($constraint){
                     $constraint->aspectRatio();

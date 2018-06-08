@@ -56,17 +56,27 @@
                     </li>
                 </ul>
 
-                @if(Auth::user() && Auth::user()->admin == 1)
+                @if(Auth::user() && Auth::user()->admin)
 
-                    <ul class="navbar-nav my-3 my-md-0 mx-auto text-center">
-                        <li class="nav-item">
-                            <a class="nav-link txt-menu" onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();" href="{{ route('logout') }}">Выйти</a>
-                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                    <div class="dropdown mr-auto">
+                        <a class="btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Admin
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="/back/description">Описание</a>
+                            <a class="dropdown-item" href="/back/gallery">Галерея</a>
+                            <a class="dropdown-item" href="/back/benefits">Особенности</a>
+
+                            <div class="dropdown-divider"></div>
+
+                            <a href="{{ route('logout') }}" class="dropdown-item" onclick="event.preventDefault();
+                                                     document.getElementById('logout').submit();">Logout</a>
+                            <form action="{{ route('logout') }}" id="logout" method="POST" style="display:none;">
                                 @csrf
                             </form>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
 
                 @endif
 
