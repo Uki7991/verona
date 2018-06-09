@@ -12,9 +12,7 @@ class TextController extends Controller
         $text = new Text($request->all());
 
         if ($request->hasFile('icon')) {
-            if (is_file(public_path('uploads/icons/'.$text->icon))) {
-                unlink(public_path('uploads/icons/'.$text->icon));
-            }
+
             $file = $request->file('icon');
 
             $imageManager = new \Intervention\Image\ImageManager();

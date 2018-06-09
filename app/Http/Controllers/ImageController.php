@@ -11,10 +11,7 @@ class ImageController extends Controller
     {
         $image = new Image;
         if ($request->hasFile('image')) {
-            if (is_file(public_path('uploads/slides/large/'.$image->image))) {
-                unlink(public_path('uploads/slides/large/'.$image->image));
-                unlink(public_path('uploads/slides/small/'.$image->image));
-            }
+
             $file = $request->file('image');
 
             $imageManager = new \Intervention\Image\ImageManager();
