@@ -31,8 +31,11 @@ class AdvantageController extends Controller
 
     public function update(Request $request, Advantage $advantage)
     {
-        $advantage->update($request->all());
+        $advantage->update($request->request->all());
         if ($request->hasFile('icon_image')) {
+            if (is_file(public_path('uploads/icons/'.$advantage->icon_image))) {
+                unlink(public_path('uploads/icons/'.$advantage->icon_image));
+            }
             $file = $request->file('icon_image');
 
             $imageManager = new \Intervention\Image\ImageManager();
@@ -48,17 +51,21 @@ class AdvantageController extends Controller
             $advantage->icon_image = $fileName;
         }
         if ($request->hasFile('image')) {
+            if (is_file(public_path('uploads/images/large/'.$advantage->image))) {
+                unlink(public_path('uploads/images/large/'.$advantage->image));
+                unlink(public_path('uploads/images/small/'.$advantage->image));
+            }
             $file = $request->file('image');
 
             $imageManager = new \Intervention\Image\ImageManager();
 
-            $fileName = uniqid('advantage_image_').md5(uniqid().$file->getClientOriginalName()).'.'.$file->getClientOriginalExtension();
+            $fileName = uniqid('advantage_image_').md5(uniqid().$file->getClientOriginalName()).'.jpg';
 
             $imageManager->make($file)
                 ->resize(1300, 1300, function ($constraint){
                     $constraint->aspectRatio();
                 })
-                ->save(public_path('uploads/images/large') . '/' . $fileName)
+                ->save(public_path('uploads/images/large') . '/' . $fileName, 80)
                 ->resize(300, 300, function ($constraint) {
                     $constraint->aspectRatio();
                 })
