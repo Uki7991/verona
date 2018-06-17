@@ -20,6 +20,7 @@ class CreateAppsTable extends Migration
             $table->string('phone1');
             $table->string('phone2')->nullable();
             $table->string('phone3')->nullable();
+            $table->string('phone4')->nullable();
             $table->string('email')->nullable();
             $table->longText('description');
             $table->string('color')->nullable();

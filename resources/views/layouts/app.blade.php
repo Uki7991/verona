@@ -64,6 +64,7 @@
                         </a>
 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="/app/1/edit">Настройки</a>
                             <a class="dropdown-item" href="/back/description">Описание</a>
                             <a class="dropdown-item" href="/back/gallery">Галерея</a>
                             <a class="dropdown-item" href="/back/advantages">Особенности</a>

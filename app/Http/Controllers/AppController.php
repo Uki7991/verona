@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\App;
 use Illuminate\Http\Request;
+use Intervention\Image\ImageManager;
 
 class AppController extends Controller
 {
@@ -16,20 +17,24 @@ class AppController extends Controller
     }
 
     public function update(Request $request, App $app) {
-        $app->title = $request->title;
-        if ($request->logo) {
-            $app->logo = $request->logo;
+        dd($request->request);
+        if ($request->hasFile('logo')) {
+            $file = $request->file('logo');
+            $fileName = uniqid('logo_').md5(uniqid()).'.'.$file->getClientOriginalExtension();
+
+            $imageManager = new ImageManager();
+
+            $imageManager->make($file)
+                ->resize(300, 300, function ($constraint) {
+                    $constraint->aspectRatio();
+                })
+                ->save(public_path('app/logo/'.$fileName));
+
+            $app->logo = $fileName;
         }
-        $app->phone1 = $request->phone1;
-        $app->phone2 = $request->phone2;
-        $app->phone3 = $request->phone3;
-        $app->email = $request->email;
-        $app->description = $request->description;
-        $app->color = $request->color;
-        $app->facebook = $request->facebook;
-        $app->instagram = $request->instagram;
-        $app->vkontakte = $request->vkontakte;
-        $app->ok = $request->ok;
+        $app->fill($request->request->all());
+
+        dd($app);
 
         $app->save();
 
