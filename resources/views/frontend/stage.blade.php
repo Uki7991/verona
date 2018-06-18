@@ -336,7 +336,7 @@
 
 @section('javascripts')
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ asset('/js/jquery1.4.js') }}"></script>
     <script type="text/javascript" src="{{asset('/css/fancybox/fancybox/jquery.fancybox-1.3.4.pack.js')}}"></script>
     <script>$("a.grouped_elements").fancybox();</script>
 
