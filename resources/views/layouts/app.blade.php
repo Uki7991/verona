@@ -85,10 +85,10 @@
 
                 <ul class="nav flex-column text-center">
                     <li class="nav-item">
-                        <a class="nav-link p-1 txt-white" href="#">+996 (557) 174 074</a>
+                        <a class="nav-link p-1 txt-white" href="tel: {{ $app->phone1 }}">{{ $app->phone1 }}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link p-1 small txt-white" href="#">Verona.Residence@mail.ru</a>
+                        <a class="nav-link p-1 small txt-white" href="#">{{ $app->email }}</a>
                     </li>
                 </ul>
             </div>
@@ -114,33 +114,33 @@
                     </u>
                 </p>
                 <address class="contacts">
-                    <p class="txt-white">+996 (557) 174 074</p>
+                    <p class="txt-white">{{ $app->phone1 }}</p>
                 </address>
                 <address>
-                    <p class="txt-white">+996 (702) 174 074</p>
+                    <p class="txt-white">{{ $app->phone2 }}</p>
                 </address>
                 <address>
-                    <p class="txt-white">+996 (559) 300 810</p>
+                    <p class="txt-white">{{ $app->phone3 }}</p>
                 </address>
                 <address>
-                    <p class="txt-white">+996 (558) 595 959</p>
+                    <p class="txt-white">{{ $app->phone4 }}</p>
                 </address>
             </div>
 
             <div class="col-12 col-md-auto mb-4 mb-md-0 mt-5 ">
                 <p class="h2 mb-2 txt-white"><u>E-mail:</u></p>
-                <a href="#" class="text-muted txt-white">Verona.Residence@mail.ru</a>
+                <a href="#" class="text-muted txt-white">{{ $app->email }}</a>
             </div>
 
             <div class="col-12 col-md-auto mt-5">
                 <p class="h2 mb-2 txt-white"><u>Соц. сети:</u></p>
                 <div class="small mb-4 mb-md-2  align-items-center">
                     <i class="fab fa-2x fa-instagram text-light"></i>&nbsp;
-                    <a href="https://www.instagram.com/iman_group.kg" target="_blank" class="text-muted txt-white">https://www.instagram.com/iman_group.kg</a>
+                    <a href="{{ $app->instagram }}" target="_blank" class="text-muted txt-white">{{ $app->instagram }}</a>
                 </div>
                 <div class="small mb-4 mb-md-2 align-items-center">
                     <i class="fab fa-2x fa-facebook text-light"></i>&nbsp;
-                    <a href="https://www.facebook.com/iman_group.kg" target="_blank" class="text-muted txt-white">https://www.facebook.com/iman_group.kg</a>
+                    <a href="{{ $app->facebook }}" target="_blank" class="text-muted txt-white">{{ $app->facebook }}</a>
                 </div>
 
 

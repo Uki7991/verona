@@ -15,16 +15,16 @@
                 <h2 class="text-verona text-center"><hr>Контакты<hr></h2>
 
                 <h3 class="my-3"><u>Телефоны:</u></h3>
-                <p class="font-weight-bold">+996 (557) 174 074</p>
-                <p class="font-weight-bold">+996 (702) 174 074</p>
-                <p class="font-weight-bold">+996 (559) 300 810</p>
-                <p class="font-weight-bold">+996 (558) 595 959</p>
+                <p class="font-weight-bold">{{ $app->phone1 }}</p>
+                <p class="font-weight-bold">{{ $app->phone2 }}</p>
+                <p class="font-weight-bold">{{ $app->phone3 }}</p>
+                <p class="font-weight-bold">{{ $app->phone4 }}</p>
 
                 <h3 class="my-3"><u>E-mail:</u></h3>
-                <p class="font-weight-bold">Verona.Residence@mail.ru</p>
+                <p class="font-weight-bold">{{ $app->email }}</p>
             </div>
 
-            <form class="text-verona text-center mx-auto mb-5 mb-md-0 col-11 col-lg-6">
+            <form method="post" class="text-verona text-center mx-auto mb-5 mb-md-0 col-11 col-lg-6">
                 <h3 class="text-verona text-center"><hr>Оставьте заявку<hr></h3>
 
                 <div class="form-group">

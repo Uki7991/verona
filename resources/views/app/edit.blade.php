@@ -13,6 +13,10 @@
                     <input type="text" class="form-control" name="title" id="app-title" value="{{ $app->title }}">
                 </div>
                 <div class="form-group">
+                    <label for="app-email">E-mail</label>
+                    <input type="text" class="form-control" name="email" id="app-email" value="{{ $app->email }}">
+                </div>
+                <div class="form-group">
                     <label for="app-logo">Лого</label>
                     <input type="file" class="form-control-file" name="logo" id="app-logo">
                 </div>

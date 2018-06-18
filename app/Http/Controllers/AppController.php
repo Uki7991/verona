@@ -17,7 +17,6 @@ class AppController extends Controller
     }
 
     public function update(Request $request, App $app) {
-        dd($request->request);
         if ($request->hasFile('logo')) {
             $file = $request->file('logo');
             $fileName = uniqid('logo_').md5(uniqid()).'.'.$file->getClientOriginalExtension();
@@ -32,9 +31,8 @@ class AppController extends Controller
 
             $app->logo = $fileName;
         }
+        $request->request->add(['logo' => $app->logo]);
         $app->fill($request->request->all());
-
-        dd($app);
 
         $app->save();
 
