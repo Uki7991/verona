@@ -38,4 +38,9 @@ class AppController extends Controller
 
         return redirect()->back();
     }
+
+    public function about()
+    {
+        return view('frontend.about');
+    }
 }

@@ -36,7 +36,7 @@
                         <a class="nav-link txt-menu" href="/">Главная</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link txt-menu">О компании</a>
+                        <a class="nav-link txt-menu" href="/about">О компании</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle txt-menu" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Объекты</a>
@@ -46,10 +46,10 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link txt-menu">Акции</a>
+                        <a class="nav-link txt-menu d-none">Акции</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link txt-menu">Вакансии</a>
+                        <a class="nav-link txt-menu d-none">Вакансии</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link txt-menu" href="/contact">Контакты</a>
