@@ -39,6 +39,11 @@
                                 {{ $app->facebook }}
                             </a>
                         </div>
+                        <div class="col-auto">
+                            <a href="{{ $app->vkontakte }}" class="text-light">
+                                {{ $app->vkontakte }}
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
