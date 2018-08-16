@@ -11,7 +11,7 @@ class AdvantageController extends Controller
     //
     public function index()
     {
-        $menu = Menu::find(1);
+        $menu = Menu::find(3);
         $items = collect()->merge($menu->sliders)->merge($menu->benefits)->merge($menu->advantages);
         $items = $items->sortBy('position');
 
@@ -87,7 +87,7 @@ class AdvantageController extends Controller
 
     public function back()
     {
-        $menu = Menu::find(1);
+        $menu = Menu::find(3);
         $items = collect()->merge($menu->sliders)->merge($menu->benefits)->merge($menu->advantages);
         $items = $items->sortBy('position');
 
