@@ -9,10 +9,10 @@
             </div>
         </div>
         <div class="row my-5 justify-content-center">
-            <div class="col-10" style="font-family: Forum;">
-                <p class="h4">
+            <div class="col-10 about-div" style="font-family: Forum;">
+                
                     {!! $app->description !!}
-                </p>
+
             </div>
         </div>
         <div class="row mb-5">

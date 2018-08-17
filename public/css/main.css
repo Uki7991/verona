@@ -252,3 +252,7 @@ body {
         width: 110px;
     }
 }
+
+.about-div {
+    font-size: 1.2rem!important;
+}
